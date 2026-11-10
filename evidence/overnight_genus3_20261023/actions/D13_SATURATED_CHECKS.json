@@ -1,0 +1,96 @@
+{
+  "claim": "C229",
+  "passed": true,
+  "source_genus": 3,
+  "degree": 13,
+  "scope": "Complete negative saturated index budgets2,8,10,10 and3,9,9,9, all active special types",
+  "not_claimed": "Whole degree13 or global nonexistence",
+  "remaining_index_budgets": [
+    [
+      2,
+      9,
+      9,
+      10
+    ]
+  ],
+  "remaining_special_types": [
+    "3",
+    "2,2"
+  ],
+  "rows": [
+    {
+      "type": "2,2",
+      "rotation_frames": 5,
+      "generated_e": 101088,
+      "wrong_b_index": 61880,
+      "literal_negative": 39208,
+      "unresolved": 0
+    },
+    {
+      "type": "3,2",
+      "rotation_frames": 9,
+      "generated_e": 1248,
+      "wrong_b_index": 832,
+      "literal_negative": 416,
+      "unresolved": 0
+    },
+    {
+      "type": "2,2,2",
+      "rotation_frames": 12,
+      "generated_e": 1248,
+      "wrong_b_index": 832,
+      "literal_negative": 416,
+      "unresolved": 0
+    }
+  ],
+  "bindings": [
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/d13_saturated.rs",
+      "sha256": "52ea0c6f98eb0c809fedef6a71b85f4384550f499b3251678819590fb63ab3cd"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/audit_d13_saturated.py",
+      "sha256": "dd94d9ffbc571da6434997e14f4da4f6baa05f57b4887a28ff624c5e9fc8ecdd"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/DEGREE_THIRTEEN_SATURATED.md",
+      "sha256": "6806e0c48bfd68d83de395fb65d27e4c5d69b02052604f593f1c1308c0daea8c"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_double_20261023_0235/RESULT.json",
+      "sha256": "960ed63283aff9299723c6d6751bca6e34ca63d64f9a573365d8c1649852038f"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_double_20261023_0235/ENUMERATION.bin",
+      "sha256": "71e01b86be8ce2519bc31f20bf24bd827edfc120b684b2c31c482a9ed957282b"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_double_audit_20261023_0245/RESULT.json",
+      "sha256": "1ef73b737724fda97a6d2d7ed255a0b4ee696bd84779649927c31dffa482b131"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_three_two_20261023_0235/RESULT.json",
+      "sha256": "39f6f640e1225fff94d2b6015f255c4bbb8c7af34849d088b72f345ee0e23b99"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_three_two_20261023_0235/ENUMERATION.bin",
+      "sha256": "e689eee6d958c64644c56f96b425ce6b59b0042dd1a3dc3d40112fe39b71ae65"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_three_two_audit_20261023_0245/RESULT.json",
+      "sha256": "00a2a52ce7dbf5cfe713aa29fe92d2e9d504ea79de30df5b59169f555e098869"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_triple_20261023_0235/RESULT.json",
+      "sha256": "b683a9f9952080a6963135561392e38a8eb98a07b86f45d7c4154e44387dd3f6"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_triple_20261023_0235/ENUMERATION.bin",
+      "sha256": "163920e0ec080192399e1f23db0cce511fee859ca17813e9f1e54cfe38b18122"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_triple_audit_20261023_0245/RESULT.json",
+      "sha256": "14d57f94af19fdc44983a2d0136c19aa841fdf836df113c44591673253b657fc"
+    }
+  ]
+}

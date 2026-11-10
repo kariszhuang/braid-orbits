@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-12",
+  "raw_root": "/Volumes/T7/Research/smooth_special_20261012_005535_273530",
+  "status": "construction_population_complete_with_16_capped_state_counts",
+  "counts": {
+    "enumerated": 46704,
+    "qualifying_occurrences": 45600,
+    "selected": 76,
+    "closed_components": 52,
+    "aliases": 8,
+    "partial_state_counts": 16
+  },
+  "additional_distinct_closed_components": 52,
+  "prior_closed_components": 8,
+  "independent_six_move_closure": true,
+  "independent_group_orders": true,
+  "independent_finite_mass_checks": true,
+  "all_closed_states_block_hypothesis_checked": true,
+  "rust_regressions_passed": 6,
+  "python_regressions_passed": 5,
+  "geometry_argument_counts": {
+    "elliptic_isotrivial": 42,
+    "higher_genus_nonisotrivial": 10
+  },
+  "geometry_human_review": "pending",
+  "jobs": [
+    {
+      "name": "r3_k4",
+      "coverage": {
+        "degree": "12",
+        "blocks": "3",
+        "size": "4",
+        "expected": "24",
+        "enumerated": "24",
+        "identity": "4",
+        "old_template": "16",
+        "qualifying_occurrences": "4",
+        "selected": "2",
+        "closed_components": "2",
+        "aliases": "0",
+        "partial_state_counts": "0",
+        "enumeration_complete": "true",
+        "elapsed_seconds": "0.033184042"
+      },
+      "independent_mass_complete": true
+    },
+    {
+      "name": "r3_k5",
+      "coverage": {
+        "degree": "15",
+        "blocks": "3",
+        "size": "5",
+        "expected": "120",
+        "enumerated": "120",
+        "identity": "5",
+        "old_template": "50",
+        "qualifying_occurrences": "65",
+        "selected": "4",
+        "closed_components": "3",
+        "aliases": "1",
+        "partial_state_counts": "0",
+        "enumeration_complete": "true",
+        "elapsed_seconds": "0.031566167"
+      },
+      "independent_mass_complete": true
+    },
+    {
+      "name": "r5_k3",
+      "coverage": {
+        "degree": "15",
+        "blocks": "5",
+        "size": "3",
+        "expected": "18",
+        "enumerated": "18",
+        "identity": "12",
+        "old_template": "0",
+        "qualifying_occurrences": "6",
+        "selected": "4",
+        "closed_components": "2",
+        "aliases": "2",
+        "partial_state_counts": "0",
+        "enumeration_complete": "true",
+        "elapsed_seconds": "0.062332584"
+      },
+      "independent_mass_complete": true
+    },
+    {
+      "name": "r3_k6",
+      "coverage": {
+        "degree": "18",
+        "blocks": "3",
+        "size": "6",
+        "expected": "720",
+        "enumerated": "720",
+        "identity": "6",
+        "old_template": "120",
+        "qualifying_occurrences": "594",
+        "selected": "8",
+        "closed_components": "7",
+        "aliases": "1",
+        "partial_state_counts": "0",
+        "enumeration_complete": "true",
+        "elapsed_seconds": "0.06843725"
+      },
+      "independent_mass_complete": true
+    },
+    {
+      "name": "r5_k4",
+      "coverage": {
+        "degree": "20",
+        "blocks": "5",
+        "size": "4",
+        "expected": "72",
+        "enumerated": "72",
+        "identity": "32",
+        "old_template": "0",
+        "qualifying_occurrences": "40",
+        "selected": "8",
+        "closed_components": "4",
+        "aliases": "0",
+        "partial_state_counts": "4",
+        "enumeration_complete": "true",
+        "elapsed_seconds": "2.216253542"
+      },
+      "independent_mass_complete": true
+    },
+    {
+      "name": "r3_k7",
+      "coverage": {
+        "degree": "21",
+        "blocks": "3",
+        "size": "7",
+        "expected": "5040",
+        "enumerated": "5040",
+        "identity": "7",
+        "old_template": "245",
+        "qualifying_occurrences": "4788",
+        "selected": "12",
+        "closed_components": "11",
+        "aliases": "1",
+        "partial_state_counts": "0",
+        "enumeration_complete": "true",
+        "elapsed_seconds": "0.110533667"
+      },
+      "independent_mass_complete": true
+    },
+    {
+      "name": "r7_k3",
+      "coverage": {
+        "degree": "21",
+        "blocks": "7",
+        "size": "3",
+        "expected": "30",
+        "enumerated": "30",
+        "identity": "21",
+        "old_template": "0",
+        "qualifying_occurrences": "9",
+        "selected": "6",
+        "closed_components": "2",
+        "aliases": "2",
+        "partial_state_counts": "2",
+        "enumeration_complete": "true",
+        "elapsed_seconds": "1.924311625"
+      },
+      "independent_mass_complete": true
+    },
+    {
+      "name": "r3_k8",
+      "coverage": {
+        "degree": "24",
+        "blocks": "3",
+        "size": "8",
+        "expected": "40320",
+        "enumerated": "40320",
+        "identity": "8",
+        "old_template": "448",
+        "qualifying_occurrences": "39864",
+        "selected": "20",
+        "closed_components": "19",
+        "aliases": "1",
+        "partial_state_counts": "0",
+        "enumeration_complete": "true",
+        "elapsed_seconds": "0.2793865"
+      },
+      "independent_mass_complete": true
+    },
+    {
+      "name": "r5_k5",
+      "coverage": {
+        "degree": "25",
+        "blocks": "5",
+        "size": "5",
+        "expected": "360",
+        "enumerated": "360",
+        "identity": "130",
+        "old_template": "0",
+        "qualifying_occurrences": "230",
+        "selected": "12",
+        "closed_components": "2",
+        "aliases": "0",
+        "partial_state_counts": "10",
+        "enumeration_complete": "true",
+        "elapsed_seconds": "8.140826083"
+      },
+      "independent_mass_complete": true
+    }
+  ],
+  "raw_hashes": {
+    "PLAN.json": "85c4746366898aa2061ee253c08004e7765c6871a2593e623dbcd109551f4f0f",
+    "CATALOG.json": "4ebf3c87a7c7c3febddd564716e59364b5e57a24f2928ee51847179c9d29429b",
+    "CHECKS.json": "47aaed45353a18cf32ea09040c0d1d0fc6eaa0101cfeebc02487e75f6df055ff",
+    "FINISHED.json": "93fed68e844d0492716faab438d1f4b15c7ba406367ed0f4d391d809c45b01fb"
+  },
+  "binary_sha256": "1c69c1d2bb602c933dc1a0e6cf9ffc0d19d7846f13dc6ae316d827af9a1ba0d2",
+  "coverage_limit": "all declared fixed-x q/y voltage occurrences; only two selected representatives per (q,local-type) bucket; not a complete component census"
+}

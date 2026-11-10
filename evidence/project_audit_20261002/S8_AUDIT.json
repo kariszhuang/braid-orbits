@@ -1,0 +1,315 @@
+{
+  "scope": "All 16 completed S8 signature shards; numerical spectra, not exact eigenvalue certificates",
+  "components": 8676,
+  "generating_states": 1397215932,
+  "all_canonical_states": 1628116890,
+  "strong_failures": 0,
+  "weak_failures": 0,
+  "spectral_methods": {
+    "jacobi-exact": 4489,
+    "lanczos-192": 4187
+  },
+  "genus_counts": {
+    "0": 1454,
+    "1": 3014,
+    "2": 2318,
+    "3": 1105,
+    "4": 555,
+    "5": 149,
+    "6": 64,
+    "7": 17
+  },
+  "shards": [
+    {
+      "shard": 0,
+      "components": 506,
+      "generating_states": 73947168,
+      "all_canonical_states": 89415852
+    },
+    {
+      "shard": 1,
+      "components": 485,
+      "generating_states": 64776348,
+      "all_canonical_states": 75641965
+    },
+    {
+      "shard": 2,
+      "components": 483,
+      "generating_states": 110607704,
+      "all_canonical_states": 120635224
+    },
+    {
+      "shard": 3,
+      "components": 381,
+      "generating_states": 88595348,
+      "all_canonical_states": 110997036
+    },
+    {
+      "shard": 4,
+      "components": 544,
+      "generating_states": 81466968,
+      "all_canonical_states": 97967906
+    },
+    {
+      "shard": 5,
+      "components": 500,
+      "generating_states": 75411120,
+      "all_canonical_states": 83837994
+    },
+    {
+      "shard": 6,
+      "components": 615,
+      "generating_states": 116088652,
+      "all_canonical_states": 126460952
+    },
+    {
+      "shard": 7,
+      "components": 681,
+      "generating_states": 90201236,
+      "all_canonical_states": 107997890
+    },
+    {
+      "shard": 8,
+      "components": 785,
+      "generating_states": 77504920,
+      "all_canonical_states": 100395809
+    },
+    {
+      "shard": 9,
+      "components": 741,
+      "generating_states": 82191388,
+      "all_canonical_states": 95623192
+    },
+    {
+      "shard": 10,
+      "components": 459,
+      "generating_states": 85908964,
+      "all_canonical_states": 97862085
+    },
+    {
+      "shard": 11,
+      "components": 545,
+      "generating_states": 99498976,
+      "all_canonical_states": 114626918
+    },
+    {
+      "shard": 12,
+      "components": 454,
+      "generating_states": 67570040,
+      "all_canonical_states": 80211176
+    },
+    {
+      "shard": 13,
+      "components": 394,
+      "generating_states": 83750492,
+      "all_canonical_states": 94318663
+    },
+    {
+      "shard": 14,
+      "components": 536,
+      "generating_states": 85592316,
+      "all_canonical_states": 100501910
+    },
+    {
+      "shard": 15,
+      "components": 567,
+      "generating_states": 114104292,
+      "all_canonical_states": 131622318
+    }
+  ],
+  "sources": [
+    {
+      "path": "runs/exact/S8_shards/shard_0/SUMMARY.txt",
+      "sha256": "bcea809cc4c87c566ad168ee1c6478527fa48afdcc2b7acdb8eca29ab2ad38a5"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_0/generating_components.csv",
+      "sha256": "9ea48b937d7fcbfc7770387854ab807a2096ba25e552f2d1c4d32c5cd5a2d708"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_0/SPECTRUM.tsv",
+      "sha256": "9887ae3c22ca73eb6eec2a46c713b2a834277bfe734bddd7bbfa86c4483a4d9f"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_1/SUMMARY.txt",
+      "sha256": "ada9a99038ce0d46c609e5f1e99b8c0e3a65ccf9939e2eb8ab432acccfdcc221"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_1/generating_components.csv",
+      "sha256": "b3082332b238495d15e21d2a81e8bd304992ba14e22c1c07a22b706379e01118"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_1/SPECTRUM.tsv",
+      "sha256": "206b8903c1b3970cd7798a1ce6432b4f7e97189baedb5f2447a95bd1683fa062"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_2/SUMMARY.txt",
+      "sha256": "e6efda60d8dbb74f3607ab80f9dcf5a2f8ed9a530d7704ce95c28f07327366c0"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_2/generating_components.csv",
+      "sha256": "e2506edc5e79eb3f5b2ce97a91a52c2a7411577150fd6c7bb57fd71115b0394d"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_2/SPECTRUM.tsv",
+      "sha256": "d5d0f574e9ff08d3e91399a31dd081e5201c4c6befbdd6df41888b7a35b2d8bc"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_3/SUMMARY.txt",
+      "sha256": "38402b105dbb2f9cc53d1474adc6b56174837a6412ee3913dade85d223be6ed4"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_3/generating_components.csv",
+      "sha256": "c68b47785dc0ad9130f6c1da41b79a56cafd4e735cccd157fbe3a4314d47dc34"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_3/SPECTRUM.tsv",
+      "sha256": "e814f5b8034ae02dae60f08345f59e545dd3ca25cd31d65649627a308c8b944a"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_4/SUMMARY.txt",
+      "sha256": "7086ef564da31e870d79282575eae31b2808aebdbd7ddbf2ec7d9d8f9aa530fc"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_4/generating_components.csv",
+      "sha256": "b84fbc573e0276c07a1e3f959fba5113d7ae8e1b0f9a44170342263dfc12504c"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_4/SPECTRUM.tsv",
+      "sha256": "4e7c9698ec94082e8b3fd7b3b4c9e82aabe11be77426acbffd5cb03d2afb8e34"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_5/SUMMARY.txt",
+      "sha256": "87a44d0ab100c277236cef7e4b204a2b56cb88222364a99b171a341f5cbc9180"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_5/generating_components.csv",
+      "sha256": "b2946e4470ed7ff3387008a123fda43821d25e8cf897a374d9e207ff466b68ce"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_5/SPECTRUM.tsv",
+      "sha256": "eb64f4d8345ec79d00f94381f5c0b8fe0372ddfff69eaf2fd0ac70b090145b98"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_6/SUMMARY.txt",
+      "sha256": "e3897b69783a9d8f3ff2426fa2c15629878afdd6df38ab823e46b7b0966b9a67"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_6/generating_components.csv",
+      "sha256": "4474eea475629dcb66c3ba71386e8eec49411ba1f65b8b3c7259ec86de44c728"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_6/SPECTRUM.tsv",
+      "sha256": "dda6bc1c4df1a86d4baded9a6281b70f0c63a2ddd900e357ff08d700d2dad05d"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_7/SUMMARY.txt",
+      "sha256": "19ade770d7e7fdb26f75a8ad523d0d874fb3c515467adb51554370f911ab4e44"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_7/generating_components.csv",
+      "sha256": "3d84ca4b4d2a675db659ca6fcd5c5db1576527dbecc75b58c58c0229d584c77c"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_7/SPECTRUM.tsv",
+      "sha256": "79bfb022bf7714356f9c324ed685ac522f937635d1f4f510b6497ee8fd7ce1f1"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_8/SUMMARY.txt",
+      "sha256": "dfdba78025a12d4d1fcb04875b12849d7ea4c922a896cef4cd7d60b00a0b3f97"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_8/generating_components.csv",
+      "sha256": "e5fc84a4fe381f1dd35777b7c4123c6321f2fac6b6c62c03fcc8263519e81c6c"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_8/SPECTRUM.tsv",
+      "sha256": "a658a35a13f9644bb9f6d6482e1ee8a8467f0e629fea7bf2702af27ac91ef00b"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_9/SUMMARY.txt",
+      "sha256": "d3f5ef27e9b22d7e56f90419203c1e12184e54e12f8b0d0f357410160bab38e8"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_9/generating_components.csv",
+      "sha256": "8e69b5e386c187562fb6863a5a84149b212941d5a4237ff0a6f06a781c576dc1"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_9/SPECTRUM.tsv",
+      "sha256": "e7179880df19d4049f4239c91704cdda507cd6153c4cfd7da079aa069bd1ca2c"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_10/SUMMARY.txt",
+      "sha256": "a79822c64764c97c2ef78decba5a318a87397b1c441696bb4f664e82b4d61c28"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_10/generating_components.csv",
+      "sha256": "8cf90033c61609379198f063d261d2caa2f48e5bcb1935142c54129aecbd2a6d"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_10/SPECTRUM.tsv",
+      "sha256": "e8032757e15543cbb64a902ba8de050060fb3793762a3d0fd5bd84e9ef0bb175"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_11/SUMMARY.txt",
+      "sha256": "71f6867f5cb4bacf79c21652980aa9a39b23594bf84fb83d3084f7995a33e060"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_11/generating_components.csv",
+      "sha256": "25695bae7ee7cb5140ef111ab264674a48573cdd5bc21cef43b02a0dbfc771f3"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_11/SPECTRUM.tsv",
+      "sha256": "a8b93924c5e2642f4b30501f507d244baf7847cb8bd1a1f7876254cbbb53b7fc"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_12/SUMMARY.txt",
+      "sha256": "32f7b63027b36e1d3c5fd014167ef331fb56b2f79d36b8f991783b9235933bf2"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_12/generating_components.csv",
+      "sha256": "70a05452c4ff827abec55edd8b69ac3bb03a3963dda188935c9dae85cf9dc74b"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_12/SPECTRUM.tsv",
+      "sha256": "97019ba7ba55ab5d91d9290a52ff34ffeb523894a5b4e6724293fd0ff73b4473"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_13/SUMMARY.txt",
+      "sha256": "b3302150b6f02403c1f2f7c0bc854b70fe646e128857f0272fceee552e47fa8c"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_13/generating_components.csv",
+      "sha256": "0e0fcab40b925d30fa8fb5d9d95c37b94179d22f672c72ee36db9fe14de59599"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_13/SPECTRUM.tsv",
+      "sha256": "c114701769bd03e14d3dbd1ef13d2b1079f33140f44a04cf81f1402b3e2f1491"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_14/SUMMARY.txt",
+      "sha256": "15a9be78af552718d1927a535a642703e239d0aa9bce5216856f90dda4fce3ff"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_14/generating_components.csv",
+      "sha256": "80a7ca11508fb37cc1173f42cb03771fce3227d6257af9e66f53c9c96240e6cb"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_14/SPECTRUM.tsv",
+      "sha256": "5c320bda077f558c08553bc6a1edc63bbd87b4dd244b9279cbd1ee162942490b"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_15/SUMMARY.txt",
+      "sha256": "b435d4a52c2946ec960ed02f241ca3c128194f94fa3119abf2ffaa041393fe4c"
+    },
+    {
+      "path": "runs/exact/S8_shards/shard_15/generating_components.csv",
+      "sha256": "2411703485c238506aa0397fdeb12045e79e95e3bac588e16a7e8389e2f9f7f7"
+    },
+    {
+      "path": "runs/spectra/S8_exact_shards/shard_15/SPECTRUM.tsv",
+      "sha256": "0525f6a992e5311ac4ffd8aec8f3caad6b35f2ec5ad9776f8c779fd643f10596"
+    }
+  ],
+  "limitations": "Validates completed outputs and disjoint shard assignment; does not independently rerun dense enumeration or certify iterative eigenvalue accuracy."
+}

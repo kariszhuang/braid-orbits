@@ -1,0 +1,45 @@
+{
+  "raw_root": "/Volumes/T7/Research/smooth_noncyclic_20261012_105911_639977",
+  "raw_checks_sha256": "3081a91343ac9c3475b0850528bd4598d126f15988696ce8a046633964fe95fa",
+  "coverage": {
+    "expected": "1296",
+    "enumerated": "1296",
+    "identity": "486",
+    "intransitive": "0",
+    "qualifying": "810",
+    "unique_seed_states": "135",
+    "complete": "true",
+    "elapsed_seconds": "0.020414083"
+  },
+  "independent_occurrence_counts": {
+    "identity": 486,
+    "qualifying": 810
+  },
+  "every_qualifying_occurrence_and_six_neighbors_checked": true,
+  "quotient_group_order": 60,
+  "saved_states_geometry_checked": 2700,
+  "independent_six_move_closed_components": 4,
+  "additional_closed_components": 4,
+  "partial_state_counts": 0,
+  "deferred_seed_states": 0,
+  "independent_audit_seconds": 3.1981375000905246,
+  "quotient": "simultaneous S15 conjugation",
+  "scope": "All1296 fixed-quotient solved frames; selected closures, not all braid components",
+  "all_constructed_seed_states_resolved": true,
+  "additional_read_only_checks": {
+    "all135_seed_memberships_checked": true,
+    "closed_state_sets_pairwise_disjoint": true,
+    "seed_states_by_component": [54, 27, 27, 27],
+    "occurrences_by_component": [324, 162, 162, 162],
+    "even_wreath_envelope_order": 233280
+  },
+  "validation": {
+    "rust_regressions": 3,
+    "python_regressions": 4,
+    "direct_literal_frames": 46656,
+    "solved_literal_frames": 1296,
+    "literal_sets_equal": true
+  },
+  "human_mathematical_review": "pending",
+  "limitations": "Complete fixed beta/gamma voltage stratum, not all degree15 tuples; proper transitive groups, not weak counterexamples."
+}

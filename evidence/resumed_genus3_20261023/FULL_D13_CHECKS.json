@@ -1,0 +1,101 @@
+{
+  "claim": "C230",
+  "passed": true,
+  "source_genus": 3,
+  "degree": 13,
+  "scope": "Complete identity-free transitive FULL six-move all-smooth exclusion, all groups",
+  "target_degree_lower_bound": 14,
+  "prerequisites": [
+    "C225 global transposition obstruction",
+    "C209 triangle exclusion",
+    "C229 saturated budgets"
+  ],
+  "single_three": {
+    "necessary_e": 2808,
+    "wrong_b_index": 1183,
+    "literal_negative": 1625,
+    "unresolved": 0,
+    "maximum_negative_length": 3
+  },
+  "double_transposition": {
+    "rotation_frames": 25,
+    "necessary_e": 6435312,
+    "wrong_b_index": 3343470,
+    "twist_negative": 3090763,
+    "late_literal_negative": 1079,
+    "unresolved": 0,
+    "maximum_late_word_length": 4
+  },
+  "auditor_fix": "Only comparison marking changed: same25 cyclic orbits, independent construction preserved; no frozen producer mutation or missing-candidate waiver",
+  "human_or_formal_verification_recorded": false,
+  "bindings": [
+    {
+      "path": "evidence/resumed_genus3_20261023/FULL_D13.md",
+      "sha256": "1d27602ae0e6a60efa8f912786fbd2509b60beaef3a941da653169349801600b"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/d13_saturated.rs",
+      "sha256": "52ea0c6f98eb0c809fedef6a71b85f4384550f499b3251678819590fb63ab3cd"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/audit_d13_saturated.py",
+      "sha256": "dd94d9ffbc571da6434997e14f4da4f6baa05f57b4887a28ff624c5e9fc8ecdd"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/D13_SATURATED_CHECKS.json",
+      "sha256": "ce7778847390d284c76ea6b2d4a8293694aba41b1cc0497414e60b01ee57bca4"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/DEGREE_THIRTEEN_SATURATED.md",
+      "sha256": "6806e0c48bfd68d83de395fb65d27e4c5d69b02052604f593f1c1308c0daea8c"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/exact_d13_three.py",
+      "sha256": "109f21f1db228ad7c882925bfa9923481280bddf9233e9df477a3adc315336fe"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/audit_d13_three.rs",
+      "sha256": "a712160108ca629f1bf53f19b779b8610a62e6ef521212dc501f5c0840168264"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/d13_double_middle.rs",
+      "sha256": "57c006c7596ed08c9db8deafdf6123ac0d0968461b9a47e23943a46383d2cf30"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/audit_d13_double_middle.py",
+      "sha256": "48c28ecd62f22fe98d0d2e7e7518f2c44c2a8cdcb090540748b0379657606d5c"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/test_d13_middle_audit.py",
+      "sha256": "fb4582b2f8b19b88100f344a689f81d160d6ab3930b0e2fb3a2001b4ea53cb1a"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/check_d13_pending.py",
+      "sha256": "4f8451ba7be919f06988ca571bd982b47f2d90e597aa17899b15148f1575be93"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_three_middle_final_20261023_0259/RESULT.json",
+      "sha256": "cca996475ded339bdfbe2f55775760bc6b758db1e0ac5a38cc0ec90b29981871"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_three_middle_audit_20261023_0259/RESULT.json",
+      "sha256": "e4a4041db52eb3ec4c34e0784a8bfb4043b307c1d537a72bb81075281268ebe8"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_double_middle_20261023_0256/RESULT.json",
+      "sha256": "7b61e0b3ecc58f7d07111b17c0798dbb708b14823196761b42152554a96293e9"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_double_middle_20261023_0256/ENUMERATION.bin",
+      "sha256": "aaf50dca046b3495d84b88253c4fdbab571d432f14007114ee6f5cc080a4b5bd"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_double_middle_bfs_20261023_0257/RESULT.json",
+      "sha256": "26672a9116dbade229b387ed8a7331fdf127bad8be6fda0ac42b8d11ce584d2c"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d13_double_middle_audit_resumed_20261023_1533/RESULT.json",
+      "sha256": "9ed7c701ddedd036e39e2f0deaa520269d54f973f0371d6407f7fa99fdf3461f"
+    }
+  ]
+}

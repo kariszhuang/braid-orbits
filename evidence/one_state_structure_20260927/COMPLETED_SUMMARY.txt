@@ -1,0 +1,46 @@
+Structural follow-up campaign, completed 2026-09-27 12:07:37 CDT
+source = runs/campaigns/campaign_20260927_115848_035745
+code commit = 38d527b340b207145527ac6fd05480dc3bba8c9c
+binary sha256 = e3fad83489c6eedd6a8a40e8bf31266566e3ddcf5847dbdf31a0e4571dbead18
+scheduled jobs = 646
+verified attempts = 649
+balanced even-path profiles = 373
+balanced even-path complete = 373
+balanced even-path generating occurrences = 2013712
+remaining A17 profiles = 1
+remaining A17 complete = 1
+A17 generating occurrences = 5160960
+octahedral profiles = 268
+octahedral complete = 268
+octahedral algebraic solutions = 4284876
+octahedral transitive solutions = 0
+octahedral full-group solutions = 0
+algebra and spectral jobs = 4
+new weak-failure components = 0
+unresolved visited candidates = 0
+
+Counts recomputed from inputs/STRUCTURE_JOBS.json and VERIFIED attempts only.
+For every resumable profile, run_campaign.pair_coverage reconstructed the
+gap-free prefix with the recorded binary hash and unchanged pair profile;
+its result matched the stored COVERAGE.json and search_complete was true.
+Every octahedral SUMMARY.txt had search complete = true.
+Generating occurrences are enumeration counts, not distinct tuples or orbits.
+No whole-degree exclusion follows from these selected symmetry slices.
+
+Together with C053, the final A17 completion resolves all 745 earlier
+degree-12--17 even-cycle/odd-path profiles. The 373 balanced-even-path
+profiles are additional. These searches impose first-braid symmetry and
+three involutions of the same cycle type; arbitrary tuples are not covered.
+All 4,284,876 solutions in the octahedral audit were intransitive as
+four-tuples, so the obstruction occurs before full-group generation.
+This is a finite library result, not a theorem about all such representations.
+
+The independent A25 algebra check and action spectra succeeded. The saved
+integer Rayleigh witness gives a full labeled normalized relaxation-gap
+upper bound 26655476798511279606/600000000009587739936, approximately
+0.044425794663. This upper bound is not the exact gap. The separate
+permutation-sign certificate gives absolute gap exactly zero.
+The method label jacobi-exact means full-matrix numerical diagonalization,
+not exact algebraic eigenvalues. Lanczos values are numerical too.
+
+Tool-checked evidence; accountable human mathematical review pending.

@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-12",
+  "raw_root": "/Volumes/T7/Research/smooth_smaller_20261012_111550_841739",
+  "quotient": "simultaneous S12 conjugation",
+  "component_count": 7,
+  "additional_component_count": 2,
+  "components": [
+    {
+      "folder": "job/component_0000",
+      "summary": {
+        "status": "closed_smooth",
+        "degree": "12",
+        "genus": "2",
+        "states": "12",
+        "group_order": "20736",
+        "ambient": "A",
+        "full_group": "false",
+        "word": "",
+        "seed": "[(2 4 3), (1 5 9)(2 6 10)(3 7 11)(4 8 12), (1 6 10)(2 7 12)(3 5 9)(4 8 11), (1 5 10)(2 8 11)(3 7 9)(4 6 12)]"
+      },
+      "component_id": "b3ea2f790efedcf900cccb1739c1887cde265c4dd0eb29643356854aae8a2e44",
+      "known_component": true,
+      "table_sha256": "9539922f56a5d3fe0c20b54bc2035c5421ef8e81cc5d218b74202f21522f71f9",
+      "independent_group_order": 20736,
+      "geometry": "isotrivial_elliptic",
+      "geometry_review": "human_review_pending"
+    },
+    {
+      "folder": "job/component_0001",
+      "summary": {
+        "status": "closed_smooth",
+        "degree": "12",
+        "genus": "2",
+        "states": "12",
+        "group_order": "20736",
+        "ambient": "A",
+        "full_group": "false",
+        "word": "",
+        "seed": "[(2 3 4), (1 5 9)(2 6 10)(3 7 11)(4 8 12), (1 6 10)(2 7 12)(3 8 11)(4 5 9), (1 5 10)(2 7 11)(3 6 12)(4 8 9)]"
+      },
+      "component_id": "09a0e43e9df2b84ea4d569be2e64643fbe26574773ec80b89ecee0a857ef8096",
+      "known_component": true,
+      "table_sha256": "bee35b784182157b0a67e2f26509b8ec8d7a66c33acc7be581efecd833bc9faa",
+      "independent_group_order": 20736,
+      "geometry": "isotrivial_elliptic",
+      "geometry_review": "human_review_pending"
+    },
+    {
+      "folder": "job/component_0002",
+      "summary": {
+        "status": "closed_smooth",
+        "degree": "12",
+        "genus": "2",
+        "states": "12",
+        "group_order": "96",
+        "ambient": "A",
+        "full_group": "false",
+        "word": "",
+        "seed": "[(1 2)(3 4), (1 5 9)(2 6 10)(3 7 11)(4 8 12), (1 7 12)(2 8 11)(3 5 9)(4 6 10), (1 6 11)(2 5 12)(3 7 9)(4 8 10)]"
+      },
+      "component_id": "49cdda242d3c92c3a440f98f6fea060abfda56b82b7583a3a90ad2adebdb05ee",
+      "known_component": true,
+      "table_sha256": "58b04697b31a1bd86ec1c5c226a6871388acfd897f93c724c650339c8e7f60c7",
+      "independent_group_order": 96,
+      "geometry": "isotrivial_elliptic",
+      "geometry_review": "human_review_pending"
+    },
+    {
+      "folder": "job/component_0003",
+      "summary": {
+        "status": "closed_smooth",
+        "degree": "12",
+        "genus": "2",
+        "states": "12",
+        "group_order": "96",
+        "ambient": "A",
+        "full_group": "false",
+        "word": "",
+        "seed": "[(1 2)(3 4), (1 5 9)(2 6 10)(3 7 11)(4 8 12), (1 7 12)(2 8 11)(3 6 10)(4 5 9), (1 6 11)(2 5 12)(3 7 10)(4 8 9)]"
+      },
+      "component_id": "cfb07095c74042d841b07a6520f243337cd16f29fc24e2c50bc4ef6b71ee8106",
+      "known_component": true,
+      "table_sha256": "8df5bb50df7286d47e94504caa12ed1c64b44b86b8371e87bebd1ba52e048311",
+      "independent_group_order": 96,
+      "geometry": "isotrivial_elliptic",
+      "geometry_review": "human_review_pending"
+    },
+    {
+      "folder": "job/component_0005",
+      "summary": {
+        "status": "closed_smooth",
+        "degree": "12",
+        "genus": "2",
+        "states": "12",
+        "group_order": "1728",
+        "ambient": "A",
+        "full_group": "false",
+        "word": "",
+        "seed": "[(1 4)(2 3), (1 5 9)(2 6 10)(3 7 11)(4 8 12), (1 6 11)(2 5 9)(3 8 10)(4 7 12), (1 7 10)(2 6 9)(3 8 12)(4 5 11)]"
+      },
+      "component_id": "d1635b2f108aa3d6d29b0edf34a349b0ad91f492c2fb3838dd83de922fffcdd3",
+      "known_component": false,
+      "table_sha256": "9707d7a8021791bf6d84f2c90a45bde84a88cb29900e478e506f52fd0c6e53e6",
+      "independent_group_order": 1728,
+      "geometry": "isotrivial_elliptic",
+      "geometry_review": "human_review_pending"
+    },
+    {
+      "folder": "job/component_0007",
+      "summary": {
+        "status": "closed_smooth",
+        "degree": "12",
+        "genus": "2",
+        "states": "12",
+        "group_order": "20736",
+        "ambient": "A",
+        "full_group": "false",
+        "word": "",
+        "seed": "[(1 2 4), (1 5 9)(2 6 10)(3 7 11)(4 8 12), (1 6 11)(2 7 12)(3 8 10)(4 5 9), (1 7 10)(2 5 11)(3 6 12)(4 8 9)]"
+      },
+      "component_id": "fe50864a61ddf79a538b789dd16d9aec7392346e0c8be87fdf0c21d3e9030b47",
+      "known_component": true,
+      "table_sha256": "fcd10df22d2c28edac3550d7092b97a8ee06fc92a0c6ab72266ef82fd26c2444",
+      "independent_group_order": 20736,
+      "geometry": "isotrivial_elliptic",
+      "geometry_review": "human_review_pending"
+    },
+    {
+      "folder": "job/component_0009",
+      "summary": {
+        "status": "closed_smooth",
+        "degree": "12",
+        "genus": "2",
+        "states": "4",
+        "group_order": "576",
+        "ambient": "A",
+        "full_group": "false",
+        "word": "",
+        "seed": "[(1 3)(2 4), (1 5 9)(2 6 10)(3 7 11)(4 8 12), (1 6 11)(2 8 10)(3 7 12)(4 5 9), (1 6 10)(2 7 12)(3 5 11)(4 8 9)]"
+      },
+      "component_id": "450f417a78df62968d92004b03a25ba5dd9a898aa6b51bf8b74dc06972ef43df",
+      "known_component": false,
+      "table_sha256": "e8a312f349dcf636a24169f17989a31e0bd45923a71931a8486fdd5547bffc85",
+      "independent_group_order": 576,
+      "geometry": "isotrivial_elliptic",
+      "geometry_review": "human_review_pending"
+    }
+  ],
+  "partial_state_counts": [],
+  "construction_scope": "All576 arbitrary-S4-pair frames with fixed beta=gamma=(123); not a degree12 census"
+}

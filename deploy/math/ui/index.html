@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>All-smooth quadruples · Hurwitz catalog</title>
+    <meta
+      name="description"
+      content="Searchable research catalogs of positive-genus Hurwitz braid components: all-smooth quadruples and all one-piece quadruples. Exact tuples, block quotients and isotriviality tests."
+    />
+    <link rel="stylesheet" href="/all-smooth-assets/style.css?v=10" />
+    <script type="module" src="/all-smooth-assets/app.mjs?v=20261109-v20"></script>
+    <script>
+      document.documentElement.dataset.catalog =
+        location.pathname.startsWith("/all-one-piece") ? "one_piece" : "all_smooth";
+      if (document.documentElement.dataset.catalog === "one_piece")
+        document.title = "All one-piece quadruples · Hurwitz catalog";
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#results">Skip to results</a>
+    <header class="masthead">
+      <div class="brand-row">
+        <a class="brand" href="/all-smooth">HURWITZ <span>RESEARCH CATALOG</span></a>
+        <nav class="catalog-tabs" aria-label="Catalogs">
+          <a href="/all-smooth" class="tab-all-smooth">All-smooth</a
+          ><a href="/all-one-piece" class="tab-one-piece">All one-piece</a>
+        </nav>
+      </div>
+      <nav aria-label="Resources" class="resources only-all-smooth">
+        <a href="/all-smooth.json.gz" download="all-smooth.json.gz" title="Downloads gzip-compressed (67.4 MB); unzips to 690.2 MB">Complete JSON (690.2 MB) ↓</a>
+      </nav>
+      <nav aria-label="Resources" class="resources only-one-piece">
+        <a href="/all-one-piece.json.gz" download="all-one-piece.json.gz" title="Downloads gzip-compressed (94.4 MB); unzips to 957.5 MB">Complete JSON (957.5 MB) ↓</a>
+      </nav>
+    </header>
+    <main>
+      <section class="intro only-all-smooth">
+        <p class="eyebrow">FOUR-TUPLE BRAID COMPONENTS</p>
+        <h1>All-smooth quadruples</h1>
+        <p class="lede">Positive genus · product one · transitive monodromy. Every braid state is smooth:</p>
+        <div class="definitions">
+          <div class="definition">
+            <p class="definition-label">Index additivity at every state</p>
+            <p class="definition-math stack"><span class="eq">ind(g<sub>1</sub>g<sub>2</sub>) = ind(g<sub>1</sub>) + ind(g<sub>2</sub>)</span><span class="op">or</span><span class="eq">ind(g<sub>1</sub>g<sub>2</sub>) = ind(g<sub>3</sub>) + ind(g<sub>4</sub>)</span></p>
+          </div>
+        </div>
+      </section>
+      <section class="intro only-one-piece">
+        <p class="eyebrow">FOUR-TUPLE BRAID COMPONENTS</p>
+        <h1>All one-piece quadruples</h1>
+        <p class="lede">Positive genus · product one · transitive monodromy. Every braid state is one-piece. All-smooth components are the special case with index additivity everywhere.</p>
+        <div class="definitions">
+          <div class="definition">
+            <p class="definition-label">One-piece at every state</p>
+            <p class="definition-math"><span class="eq">δ = 0</span><span class="op">and</span><span class="eq">at most one piece of positive genus</span></p>
+            <p class="definition-note">δ = cycles(g<sub>1</sub>g<sub>2</sub>) − orbits⟨g<sub>1</sub>, g<sub>2</sub>⟩ − orbits⟨g<sub>3</sub>, g<sub>4</sub>⟩ + 1; the pieces are the orbits of ⟨g<sub>1</sub>, g<sub>2</sub>⟩ and ⟨g<sub>3</sub>, g<sub>4</sub>⟩.</p>
+          </div>
+          <div class="definition">
+            <p class="definition-label">All-smooth: also index additivity at every state</p>
+            <p class="definition-math stack"><span class="eq">ind(g<sub>1</sub>g<sub>2</sub>) = ind(g<sub>1</sub>) + ind(g<sub>2</sub>)</span><span class="op">or</span><span class="eq">ind(g<sub>1</sub>g<sub>2</sub>) = ind(g<sub>3</sub>) + ind(g<sub>4</sub>)</span></p>
+          </div>
+        </div>
+      </section>
+      <div class="stats" id="stats" aria-live="polite">
+        <p>Loading the versioned catalog…</p>
+      </div>
+      <div class="workspace">
+        <aside>
+          <form id="filters">
+            <div class="filter-heading">
+              <h2>Refine the catalog</h2>
+              <button type="button" id="reset" class="text-button">
+                Reset
+              </button>
+            </div>
+            <label
+              >Isotriviality<select name="isotrivial">
+                <option value="non-isotrivial">Non-isotrivial</option>
+                <option value="isotrivial">Isotrivial</option>
+                <option value="unknown">Unknown</option>
+                <option value="all">All examples</option>
+              </select></label
+            >
+            <div class="only-one-piece">
+            <label
+              >Smoothness<select name="smoothness">
+                <option value="all">All one-piece</option>
+                <option value="all_smooth">All-smooth</option>
+                <option value="one_piece">Not all-smooth</option>
+              </select></label
+            >
+            <label
+              >Source<select name="source">
+                <option value="all">All sources</option>
+                <option value="all_smooth_search">All-smooth search</option>
+                <option value="one_piece_census">One-piece census (d ≤ 10)</option>
+                <option value="one_piece_lift">Lift construction</option>
+                <option value="group_search">Group search</option>
+              </select></label
+            >
+            </div>
+            <label
+              >Tuple or cycle type<input
+                name="search"
+                type="search"
+                placeholder="e.g. 3^3 or (5 6 7)"
+            /></label>
+            <fieldset>
+              <legend>Degree d</legend>
+              <div class="range">
+                <input
+                  aria-label="Minimum degree"
+                  name="degree_min"
+                  type="number"
+                  min="0"
+                  placeholder="Min"
+                /><span>–</span
+                ><input
+                  aria-label="Maximum degree"
+                  name="degree_max"
+                  type="number"
+                  min="0"
+                  placeholder="Max"
+                />
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Source genus g</legend>
+              <div class="range">
+                <input
+                  aria-label="Minimum genus"
+                  name="genus_min"
+                  type="number"
+                  min="0"
+                  placeholder="Min"
+                /><span>–</span
+                ><input
+                  aria-label="Maximum genus"
+                  name="genus_max"
+                  type="number"
+                  min="0"
+                  placeholder="Max"
+                />
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Quotient states</legend>
+              <div class="range">
+                <input
+                  aria-label="Minimum states"
+                  name="states_min"
+                  type="number"
+                  min="0"
+                  placeholder="Min"
+                /><span>–</span
+                ><input
+                  aria-label="Maximum states"
+                  name="states_max"
+                  type="number"
+                  min="0"
+                  placeholder="Max"
+                />
+              </div>
+            </fieldset>
+            <div class="two">
+              <label
+                >Contained in<select name="parity">
+                  <option value="all">Either</option>
+                  <option value="A">A_d</option>
+                  <option value="S">S_d</option>
+                </select></label
+              ><label
+                >Primitive<select name="primitive">
+                  <option value="all">Either</option>
+                  <option value="true">Yes</option>
+                  <option value="false">No</option>
+                </select></label
+              >
+            </div>
+            <details class="advanced">
+              <summary>Block quotients & advanced query</summary>
+              <p class="hint">
+                All quotient conditions must hold for the same block system.
+              </p>
+              <div class="two">
+                <label
+                  >Quotient genus h<input
+                    name="quotient_genus"
+                    type="number"
+                    min="0"
+                    placeholder="Any" /></label
+                ><label
+                  >Block size m<input
+                    name="block_size"
+                    type="number"
+                    min="2"
+                    placeholder="Any"
+                /></label>
+              </div>
+              <label
+                >Ramification excess (ordered)<input
+                  name="excess"
+                  placeholder="e.g. 2,0,0,0"
+              /></label>
+              <fieldset>
+                <legend>Generated group order</legend>
+                <div class="range">
+                  <input
+                    aria-label="Minimum group order"
+                    name="group_order_min"
+                    type="number"
+                    min="1"
+                    placeholder="Min"
+                  /><span>–</span
+                  ><input
+                    aria-label="Maximum group order"
+                    name="group_order_max"
+                    type="number"
+                    min="1"
+                    placeholder="Max"
+                  />
+                </div>
+              </fieldset>
+              <label
+                >Comparisons<textarea
+                  name="query"
+                  rows="3"
+                  placeholder="degree >= 15 and genus <= 6"
+                ></textarea>
+              </label>
+              <p class="hint">
+                degree, genus, states, group_order; =, !=, &lt;, &gt;, &lt;=,
+                &gt;=; join with “and”.
+              </p>
+            </details>
+            <input name="sort" type="hidden" value="degree" /><input
+              name="direction"
+              type="hidden"
+              value="asc"
+            />
+          </form>
+        </aside>
+        <section id="results" class="results" tabindex="-1">
+          <div class="toolbar">
+            <div>
+              <h2 id="result-count">Loading…</h2>
+              <p id="result-note">Default: non-isotrivial source families</p>
+            </div>
+            <div class="actions">
+              <button id="share" type="button">Copy query link</button
+              ><button id="download" type="button" disabled>
+                Download filtered JSON ↓
+              </button>
+            </div>
+          </div>
+          <p id="error" class="error" role="alert" hidden></p>
+          <p id="notice" class="hint" aria-live="polite"></p>
+          <div class="quickpager">
+            <label class="mobile-sort"
+              >Sort<select id="mobile-sort">
+                <option value="degree">Degree</option>
+                <option value="genus">Genus</option>
+                <option value="states">States</option>
+                <option value="group_order">Group order</option>
+              </select></label
+            ><button
+              id="mobile-direction"
+              class="mobile-sort"
+              aria-label="Reverse sort direction"
+            >
+              ↑↓</button
+            ><span id="top-page-info">500 results per page</span
+            ><button id="top-previous" disabled aria-label="Previous page">
+              ←</button
+            ><button id="top-next" disabled aria-label="Next page">→</button>
+          </div>
+          <div class="table-scroll">
+            <table class="catalog">
+              <caption class="sr-only">
+                All-smooth and one-piece braid components. Click a column heading to sort; open an
+                example for its tuple and quotient data.
+              </caption>
+              <thead>
+                <tr>
+                  <th>
+                    <button data-sort="degree">Degree <span>↑</span></button>
+                  </th>
+                  <th><button data-sort="genus">Genus</button></th>
+                  <th>Passport</th>
+                  <th><button data-sort="states">States</button></th>
+                  <th><button data-sort="group_order">Group order</button></th>
+                  <th>Isotrivial?</th>
+                  <th class="kind">Type</th>
+                  <th><span class="sr-only">Details</span></th>
+                </tr>
+              </thead>
+              <tbody id="rows"></tbody>
+            </table>
+          </div>
+          <div id="empty" class="empty" hidden>
+            <h3>No matching examples</h3>
+            <p>
+              Try a wider range or select “All examples”. Unknown cases are
+              separate from non-isotrivial cases.
+            </p>
+          </div>
+          <div class="pagination">
+            <button id="previous" disabled>← Previous</button>
+            <p id="page-info"></p>
+            <button id="next" disabled>Next →</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <span id="version">Versioned research data</span
+      ><a href="/manifest.json">Version history ↗</a
+      ><span>No accounts. Manual dataset releases.</span>
+    </footer>
+    <noscript
+      ><p class="error">
+        JavaScript is needed for local filtering. Download the
+        <a href="/all-smooth.json.gz" download="all-smooth.json.gz">complete JSON (690.2 MB, downloads as 67.4 MB gzip)</a>.
+      </p></noscript
+    >
+  </body>
+</html>

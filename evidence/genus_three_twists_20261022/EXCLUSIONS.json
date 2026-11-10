@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "source_genus": 3,
+  "identity_free": true,
+  "excluded_degrees": [
+    11
+  ],
+  "closed_index_budget": {
+    "degree": 13,
+    "indices": [
+      6,
+      6,
+      6,
+      12
+    ],
+    "reason": "entire fixed-point half-rank family,not just involutions"
+  },
+  "focused_open_budget": {
+    "degree": 12,
+    "indices": [
+      1,
+      9,
+      9,
+      9
+    ]
+  },
+  "mathematics": {
+    "path": "/Users/karis/Documents/Research/evidence/genus_three_twists_20261022/MATHEMATICS.md",
+    "sha256": "82e57516a060e494f14e796fe0a7025398ecf906659965c9870049eb195c8e56"
+  },
+  "checks": {
+    "path": "/Users/karis/Documents/Research/evidence/genus_three_twists_20261022/CHECKS.json",
+    "sha256": "161d7b596ed16be616dabfaff3dc881aecd05b818af8fed4c5e158affe69afb4"
+  },
+  "finite_degree11_audits": [
+    {
+      "path": "/Volumes/T7/Research/genus3_chords_20261022_admitted/transposition_11/EXACT_AUDIT.json",
+      "sha256": "094a8ba2746f2d4e7886fc457b0ef826a158e19445ae8d49b45a31831e2e1ee2"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_chords_20261022_admitted/double_11/EXACT_AUDIT.json",
+      "sha256": "289ebf11e702e16ef8f5e1b0cbc70e356316a0c99229b5f02680f64ddfd12ce5"
+    }
+  ]
+}

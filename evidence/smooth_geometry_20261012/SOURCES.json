@@ -1,0 +1,34 @@
+{
+  "opened": "2026-10-12",
+  "mathematical_sources": [
+    {
+      "authors": ["Alan Howard", "Andrew J. Sommese"],
+      "title": "On the theorem of de Franchis",
+      "year": 1983,
+      "journal": "Annali della Scuola Normale Superiore di Pisa, Classe di Scienze",
+      "volume": "10 (4), issue 3",
+      "pages": "429-436",
+      "url": "https://www.numdam.org/item/ASNSP_1983_4_10_3_429_0.pdf",
+      "used_for": "finiteness of nonconstant maps from a fixed compact curve to a fixed curve of genus at least two; p429 and p433",
+      "caution": "PDF OCR mangles several inequality signs; PROOF.md also gives a local negative-tangent-degree argument"
+    },
+    {
+      "author": "Arun Debray",
+      "title": "M392C (Riemann Surfaces) Lecture Notes",
+      "year": 2016,
+      "url": "https://adebray.github.io/lecture_notes/m392c_RSnotes.pdf",
+      "used_for": "Lecture11, Riemann existence and covering-space subgroup description; pp23-24",
+      "type": "primary lecture notes (Tim Perutz course), not a journal article",
+      "caution": "notes acknowledge possible errors; subgroup/factorization argument is written explicitly in PROOF.md"
+    }
+  ],
+  "workflow_acknowledgment": {
+    "authors": ["Timothy Kassis", "Vinayak Agarwal", "Yuhuan He", "Darshil Patel", "Aubrey M. Brueckner"],
+    "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+    "year": 2026,
+    "doi": "10.48550/arXiv.2609.00065",
+    "url": "https://arxiv.org/abs/2609.00065",
+    "role": "scientific critical-thinking/writing workflow; not evidence for the mathematical theorem"
+  },
+  "human_mathematical_review": "pending; no verification or submission approval inferred"
+}

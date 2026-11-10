@@ -1,0 +1,1301 @@
+{
+  "status": "tool-checked; human mathematical review pending",
+  "checked_at": "2026-09-29T16:06:22.571756-05:00",
+  "source": "runs/campaigns/campaign_20260929_160438_677235",
+  "binary_sha256": "f8b6c8eae42022472b015a9d574116549cdc6647cac7a469a89e1170d5e14563",
+  "git_commit": "699a738d2fe472dcafde5af54a7b7b01bcc5629a",
+  "strata": [
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "complete": 35
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "complete": 42
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "complete": 63
+    }
+  ],
+  "completed_new_passports": 140,
+  "unresolved_candidates": 0,
+  "new_weak_failure_components": 0,
+  "counts": {
+    "attempted seeds": 285455825,
+    "accepted generating seeds": 314978,
+    "solved seeds": 314978,
+    "fixed-entry transitive pairs pruned": 7771539072,
+    "centralizer-equivalent pairs removed": 12918918941,
+    "direct-pair witnesses pruned": 6336563
+  },
+  "warning": "Counts are reduced enumeration occurrences, not distinct tuples or braid components. Only nonidentity XXYY/XXXY genera specified by the saved schedule and completed/proven exclusions are covered; no whole-degree exclusion.",
+  "passports": [
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.2.2.2/2.2.2.2/2.2.2.2/2.2.5",
+      "candidate_pairs": 6171,
+      "job": "structured_A9_196891da581c",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.2.2.2/2.2.2.2/2.2.2.2/2.3.4",
+      "candidate_pairs": 6171,
+      "job": "structured_A9_301997fdebf8",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.2.2.2/2.2.2.2/2.2.2.2/2.6",
+      "candidate_pairs": 6171,
+      "job": "structured_A9_6036b3cfc275",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.2.2.2/2.2.2.2/2.2.2.2/3.3.3",
+      "candidate_pairs": 6171,
+      "job": "structured_A9_9af6f2e9b1c6",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.2.2.2/2.2.2.2/2.2.2.2/3.5",
+      "candidate_pairs": 6171,
+      "job": "structured_A9_2ea80b02eb5f",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.2.2.2/2.2.2.2/2.2.2.2/4.4",
+      "candidate_pairs": 6171,
+      "job": "structured_A9_63e188345708",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.2.2.2/2.2.2.2/2.2.2.2/7",
+      "candidate_pairs": 6171,
+      "job": "structured_A9_34928297c0f9",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "5/3.3.3/5/5",
+      "candidate_pairs": 23232,
+      "job": "structured_A9_24c29c48629a",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "3.3/3.3.3/3.3/3.3",
+      "candidate_pairs": 29280,
+      "job": "structured_A9_ea31b7309df1",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "5/5/5/2.2.5",
+      "candidate_pairs": 185856,
+      "job": "structured_A9_3dc355526fcf",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "5/5/5/2.3.4",
+      "candidate_pairs": 185856,
+      "job": "structured_A9_ebd5bcdf45f0",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "5/5/5/2.6",
+      "candidate_pairs": 185856,
+      "job": "structured_A9_3ba0ccf6c710",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "5/5/5/3.5",
+      "candidate_pairs": 185856,
+      "job": "structured_A9_dc5421d6a5d5",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "5/5/5/4.4",
+      "candidate_pairs": 185856,
+      "job": "structured_A9_f2440503ea7e",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "5/5/5/7",
+      "candidate_pairs": 185856,
+      "job": "structured_A9_ae7a9d8dbd51",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "3.3/3.3/3.3/2.2.5",
+      "candidate_pairs": 146400,
+      "job": "structured_A9_828a67fb76eb",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "3.3/3.3/3.3/2.3.4",
+      "candidate_pairs": 146400,
+      "job": "structured_A9_3d0ddc086762",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "3.3/3.3/3.3/2.6",
+      "candidate_pairs": 146400,
+      "job": "structured_A9_11898f49322f",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "3.3/3.3/3.3/3.5",
+      "candidate_pairs": 146400,
+      "job": "structured_A9_055352f0753a",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "3.3/3.3/3.3/4.4",
+      "candidate_pairs": 146400,
+      "job": "structured_A9_495411ae4845",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "3.3/3.3/3.3/7",
+      "candidate_pairs": 146400,
+      "job": "structured_A9_279b7bcad766",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.2.3/3.3.3/2.2.3/2.2.3",
+      "candidate_pairs": 81648,
+      "job": "structured_A9_99ea64764b39",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.4/3.3.3/2.4/2.4",
+      "candidate_pairs": 81504,
+      "job": "structured_A9_edb9590fbccf",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.2.3/2.2.3/2.2.3/2.2.5",
+      "candidate_pairs": 1073088,
+      "job": "structured_A9_fabe0dd3741c",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.2.3/2.2.3/2.2.3/2.3.4",
+      "candidate_pairs": 1073088,
+      "job": "structured_A9_e2a5ec781547",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.2.3/2.2.3/2.2.3/2.6",
+      "candidate_pairs": 1073088,
+      "job": "structured_A9_5669c5b95d14",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.2.3/2.2.3/2.2.3/3.5",
+      "candidate_pairs": 1073088,
+      "job": "structured_A9_6af763d8f17e",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.2.3/2.2.3/2.2.3/4.4",
+      "candidate_pairs": 1073088,
+      "job": "structured_A9_734be87888f3",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.2.3/2.2.3/2.2.3/7",
+      "candidate_pairs": 1073088,
+      "job": "structured_A9_aee2d34821aa",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.4/2.4/2.4/2.2.5",
+      "candidate_pairs": 1555368,
+      "job": "structured_A9_cf18ef46d118",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.4/2.4/2.4/2.3.4",
+      "candidate_pairs": 1555368,
+      "job": "structured_A9_0c8d4662392c",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.4/2.4/2.4/2.6",
+      "candidate_pairs": 1555368,
+      "job": "structured_A9_f8b71f6552ec",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.4/2.4/2.4/3.5",
+      "candidate_pairs": 1555368,
+      "job": "structured_A9_5dd4b870878a",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.4/2.4/2.4/4.4",
+      "candidate_pairs": 1555368,
+      "job": "structured_A9_b60122819966",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 9,
+      "genus": 1,
+      "passport": "2.4/2.4/2.4/7",
+      "candidate_pairs": 1555368,
+      "job": "structured_A9_e38c4fea6770",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.2.4/3/2.2.2.4/2.2.2.4",
+      "candidate_pairs": 40500,
+      "job": "structured_A10_0a9004f5a735",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.2.2/2.2.2.2/2.2.2.2/2.2.2.4",
+      "candidate_pairs": 146475,
+      "job": "structured_A10_96411fa28e22",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.2.2/2.2.2.2/2.2.2.2/2.2.3.3",
+      "candidate_pairs": 146475,
+      "job": "structured_A10_4ef7a3c82a38",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.2.2/2.2.2.2/2.2.2.2/2.2.5",
+      "candidate_pairs": 146475,
+      "job": "structured_A10_196891da581c",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.2.2/2.2.2.2/2.2.2.2/2.3.4",
+      "candidate_pairs": 146475,
+      "job": "structured_A10_301997fdebf8",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.2.2/2.2.2.2/2.2.2.2/2.6",
+      "candidate_pairs": 146475,
+      "job": "structured_A10_6036b3cfc275",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.2.2/2.2.2.2/2.2.2.2/3.5",
+      "candidate_pairs": 146475,
+      "job": "structured_A10_2ea80b02eb5f",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "3.3.3/3/3.3.3/3.3.3",
+      "candidate_pairs": 34048,
+      "job": "structured_A10_c004b9c81b33",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.3.3/3/2.2.3.3/2.2.3.3",
+      "candidate_pairs": 36000,
+      "job": "structured_A10_b739400dc4db",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "5/5/5/2.2.2.4",
+      "candidate_pairs": 399168,
+      "job": "structured_A10_63be9c29b39e",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "5/5/5/2.2.3.3",
+      "candidate_pairs": 399168,
+      "job": "structured_A10_0f588426b42e",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "5/5/5/2.2.5",
+      "candidate_pairs": 399168,
+      "job": "structured_A10_3dc355526fcf",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "5/5/5/2.3.4",
+      "candidate_pairs": 399168,
+      "job": "structured_A10_ebd5bcdf45f0",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "5/5/5/2.6",
+      "candidate_pairs": 399168,
+      "job": "structured_A10_3ba0ccf6c710",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "5/5/5/3.3.3",
+      "candidate_pairs": 399168,
+      "job": "structured_A10_24c29c48629a",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "5/5/5/3.5",
+      "candidate_pairs": 399168,
+      "job": "structured_A10_dc5421d6a5d5",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "5/5/5/4.4",
+      "candidate_pairs": 399168,
+      "job": "structured_A10_f2440503ea7e",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "5/5/5/7",
+      "candidate_pairs": 399168,
+      "job": "structured_A10_ae7a9d8dbd51",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.2.4/2.2/2.2.2.4/2.2.2.4",
+      "candidate_pairs": 90000,
+      "job": "structured_A10_fd64f0c8d19d",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "3.3.3/2.2/3.3.3/3.3.3",
+      "candidate_pairs": 46816,
+      "job": "structured_A10_9da176671273",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.3.3/2.2/2.2.3.3/2.2.3.3",
+      "candidate_pairs": 72000,
+      "job": "structured_A10_6a54e7466073",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.2.4/2.2.2.2/2.2.2.2/2.2.2.4",
+      "candidate_pairs": 77490,
+      "job": "structured_A10_592f28e4fd5b",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "3.3.3/2.2.2.2/2.2.2.2/3.3.3",
+      "candidate_pairs": 40527,
+      "job": "structured_A10_65f3020f336e",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.3.3/2.2.2.2/2.2.2.2/2.2.3.3",
+      "candidate_pairs": 64575,
+      "job": "structured_A10_0796e152f488",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "3.3/3.3/3.3/2.2.2.4",
+      "candidate_pairs": 495600,
+      "job": "structured_A10_d7e4bf5bf9b1",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "3.3/3.3/3.3/2.2.3.3",
+      "candidate_pairs": 495600,
+      "job": "structured_A10_0ae3dbd52b08",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "3.3/3.3/3.3/2.2.5",
+      "candidate_pairs": 495600,
+      "job": "structured_A10_828a67fb76eb",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "3.3/3.3/3.3/2.3.4",
+      "candidate_pairs": 495600,
+      "job": "structured_A10_3d0ddc086762",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "3.3/3.3/3.3/2.6",
+      "candidate_pairs": 495600,
+      "job": "structured_A10_11898f49322f",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "3.3/3.3/3.3/3.3.3",
+      "candidate_pairs": 495600,
+      "job": "structured_A10_ea31b7309df1",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "3.3/3.3/3.3/3.5",
+      "candidate_pairs": 495600,
+      "job": "structured_A10_055352f0753a",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "3.3/3.3/3.3/4.4",
+      "candidate_pairs": 495600,
+      "job": "structured_A10_495411ae4845",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "3.3/3.3/3.3/7",
+      "candidate_pairs": 495600,
+      "job": "structured_A10_279b7bcad766",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.2.4/5/5/2.2.2.4",
+      "candidate_pairs": 202176,
+      "job": "structured_A10_cf8f6dda64f8",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "4.4/3/4.4/4.4",
+      "candidate_pairs": 230040,
+      "job": "structured_A10_9b1c74b06186",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "3.3.3/5/5/3.3.3",
+      "candidate_pairs": 180576,
+      "job": "structured_A10_1fb6b7614cbe",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.3.3/5/5/2.2.3.3",
+      "candidate_pairs": 217728,
+      "job": "structured_A10_848e7108b490",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "4.4/2.2.2.2/2.2.2.2/4.4",
+      "candidate_pairs": 200466,
+      "job": "structured_A10_2d13d36d0e48",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.2.4/3.3/3.3/2.2.2.4",
+      "candidate_pairs": 208800,
+      "job": "structured_A10_b1160d4b6a6c",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "3.3.3/3.3/3.3/3.3.3",
+      "candidate_pairs": 251472,
+      "job": "structured_A10_e2c2c2da0ba1",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.3.3/3.3/3.3/2.2.3.3",
+      "candidate_pairs": 246480,
+      "job": "structured_A10_9ee88318d522",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "7/3/7/7",
+      "candidate_pairs": 1101600,
+      "job": "structured_A10_705bc669b090",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "7/2.2.2.2/2.2.2.2/7",
+      "candidate_pairs": 415800,
+      "job": "structured_A10_7a6c467dd2e1",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.5/3/2.2.5/2.2.5",
+      "candidate_pairs": 355680,
+      "job": "structured_A10_3b0075d06d13",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.5/2.2.2.2/2.2.2.2/2.2.5",
+      "candidate_pairs": 230175,
+      "job": "structured_A10_42859abeb431",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "4.4/2.2/4.4/4.4",
+      "candidate_pairs": 598104,
+      "job": "structured_A10_a805ef7cdf36",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "4.4/5/5/4.4",
+      "candidate_pairs": 543456,
+      "job": "structured_A10_1c52c63ff68d",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "3.5/2.2.2.2/2.2.2.2/3.5",
+      "candidate_pairs": 299205,
+      "job": "structured_A10_97813d26f096",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "7/5/5/7",
+      "candidate_pairs": 1397088,
+      "job": "structured_A10_a63d651e7e74",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.5/5/5/2.2.5",
+      "candidate_pairs": 949248,
+      "job": "structured_A10_6f7a5b91df16",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.3.4/2.2.2.2/2.2.2.2/2.3.4",
+      "candidate_pairs": 282240,
+      "job": "structured_A10_a26f12a69764",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.6/2.2.2.2/2.2.2.2/2.6",
+      "candidate_pairs": 549900,
+      "job": "structured_A10_d094d6c99ecf",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "3.5/3/3.5/3.5",
+      "candidate_pairs": 1061280,
+      "job": "structured_A10_fdc2e3da5434",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "4.4/3.3/3.3/4.4",
+      "candidate_pairs": 755904,
+      "job": "structured_A10_0066fe08ffc8",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "3.5/5/5/3.5",
+      "candidate_pairs": 1251936,
+      "job": "structured_A10_cd6566c27fa3",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "7/2.2/7/7",
+      "candidate_pairs": 2264400,
+      "job": "structured_A10_21dc8d3bf704",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.5/2.2/2.2.5/2.2.5",
+      "candidate_pairs": 730080,
+      "job": "structured_A10_86de37590b70",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.3.4/3/2.3.4/2.3.4",
+      "candidate_pairs": 773280,
+      "job": "structured_A10_163b79055a17",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.6/3/2.6/2.6",
+      "candidate_pairs": 1641600,
+      "job": "structured_A10_5c114ddfae29",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.3.4/5/5/2.3.4",
+      "candidate_pairs": 1287360,
+      "job": "structured_A10_657ffabd22c1",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.6/5/5/2.6",
+      "candidate_pairs": 1731456,
+      "job": "structured_A10_9daeae21bb74",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "7/3.3/3.3/7",
+      "candidate_pairs": 1927800,
+      "job": "structured_A10_fa70904bbb09",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.5/3.3/3.3/2.2.5",
+      "candidate_pairs": 1098480,
+      "job": "structured_A10_433c39909545",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.2.4/2.4/2.4/2.4",
+      "candidate_pairs": 1239552,
+      "job": "structured_A10_c4f19524e860",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.4/2.4/2.4/2.2.3.3",
+      "candidate_pairs": 5008500,
+      "job": "structured_A10_42284529aef6",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.4/2.4/2.4/2.2.5",
+      "candidate_pairs": 5008500,
+      "job": "structured_A10_cf18ef46d118",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.4/2.4/2.4/2.3.4",
+      "candidate_pairs": 5008500,
+      "job": "structured_A10_0c8d4662392c",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.4/2.4/2.4/2.6",
+      "candidate_pairs": 5008500,
+      "job": "structured_A10_f8b71f6552ec",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.4/2.4/2.4/3.3.3",
+      "candidate_pairs": 5008500,
+      "job": "structured_A10_edb9590fbccf",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.4/2.4/2.4/3.5",
+      "candidate_pairs": 5008500,
+      "job": "structured_A10_5dd4b870878a",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.4/2.4/2.4/4.4",
+      "candidate_pairs": 5008500,
+      "job": "structured_A10_b60122819966",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.4/2.4/2.4/7",
+      "candidate_pairs": 5008500,
+      "job": "structured_A10_e38c4fea6770",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.2.4/2.2.2.4/2.4/2.4",
+      "candidate_pairs": 755352,
+      "job": "structured_A10_61ccb1edf798",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "3.3.3/2.4/2.4/3.3.3",
+      "candidate_pairs": 1067904,
+      "job": "structured_A10_2fa992de1a5b",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "3.5/3.3/3.3/3.5",
+      "candidate_pairs": 1693320,
+      "job": "structured_A10_a7e96af14b26",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.3.3/2.4/2.4/2.2.3.3",
+      "candidate_pairs": 1180980,
+      "job": "structured_A10_bbfcc918f26f",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.3/2.2.2.4/2.2.2.4/2.2.3",
+      "candidate_pairs": 1020600,
+      "job": "structured_A10_b2414d7a8368",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "3.5/2.2/3.5/3.5",
+      "candidate_pairs": 1929600,
+      "job": "structured_A10_399c69e33759",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.3.4/3.3/3.3/2.3.4",
+      "candidate_pairs": 1571616,
+      "job": "structured_A10_5b48421d55ee",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.6/3.3/3.3/2.6",
+      "candidate_pairs": 2430000,
+      "job": "structured_A10_b62eb6adcb1c",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.3/2.2.2.4/2.2.3/2.2.3",
+      "candidate_pairs": 3175200,
+      "job": "structured_A10_18c61f245160",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.3/3.3.3/3.3.3/2.2.3",
+      "candidate_pairs": 1168512,
+      "job": "structured_A10_56f005c919df",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.3/3.3.3/2.2.3/2.2.3",
+      "candidate_pairs": 2570400,
+      "job": "structured_A10_99ea64764b39",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.3.4/2.2/2.3.4/2.3.4",
+      "candidate_pairs": 1495008,
+      "job": "structured_A10_97fa8988bffa",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.6/2.2/2.6/2.6",
+      "candidate_pairs": 3762000,
+      "job": "structured_A10_e202d1d349fb",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.3.3/2.2.3/2.2.3/2.2.3",
+      "candidate_pairs": 1361232,
+      "job": "structured_A10_b0a35c15a0a6",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.3/2.2.3/2.2.3/2.2.5",
+      "candidate_pairs": 8240400,
+      "job": "structured_A10_fabe0dd3741c",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.3/2.2.3/2.2.3/2.3.4",
+      "candidate_pairs": 8240400,
+      "job": "structured_A10_e2a5ec781547",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.3/2.2.3/2.2.3/2.6",
+      "candidate_pairs": 8240400,
+      "job": "structured_A10_5669c5b95d14",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.3/2.2.3/2.2.3/3.5",
+      "candidate_pairs": 8240400,
+      "job": "structured_A10_6af763d8f17e",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.3/2.2.3/2.2.3/4.4",
+      "candidate_pairs": 8240400,
+      "job": "structured_A10_734be87888f3",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 0,
+      "passport": "2.2.3/2.2.3/2.2.3/7",
+      "candidate_pairs": 8240400,
+      "job": "structured_A10_aee2d34821aa",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.3.3/2.2.3/2.2.3/2.2.3.3",
+      "candidate_pairs": 1361232,
+      "job": "structured_A10_10e728c8a670",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "4.4/2.4/2.4/4.4",
+      "candidate_pairs": 4103172,
+      "job": "structured_A10_c4b0a6e60c32",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "7/2.4/2.4/7",
+      "candidate_pairs": 10319400,
+      "job": "structured_A10_f55726dbdc0c",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.5/2.4/2.4/2.2.5",
+      "candidate_pairs": 6326100,
+      "job": "structured_A10_c6f09e3b6f37",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "4.4/2.2.3/2.2.3/4.4",
+      "candidate_pairs": 5282640,
+      "job": "structured_A10_e13a2d379b26",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "3.5/2.4/2.4/3.5",
+      "candidate_pairs": 8759520,
+      "job": "structured_A10_d74bf2740199",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.3.4/2.4/2.4/2.3.4",
+      "candidate_pairs": 8290800,
+      "job": "structured_A10_85d1de6af7f8",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.6/2.4/2.4/2.6",
+      "candidate_pairs": 13266720,
+      "job": "structured_A10_600b0af8cd0c",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "7/2.2.3/2.2.3/7",
+      "candidate_pairs": 14112000,
+      "job": "structured_A10_02c357d111be",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.2.5/2.2.3/2.2.3/2.2.5",
+      "candidate_pairs": 7832400,
+      "job": "structured_A10_9d276bbedca0",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "3.5/2.2.3/2.2.3/3.5",
+      "candidate_pairs": 11524800,
+      "job": "structured_A10_62dc5d225bb4",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.3.4/2.2.3/2.2.3/2.3.4",
+      "candidate_pairs": 10251264,
+      "job": "structured_A10_05973012ec6a",
+      "search_complete": true
+    },
+    {
+      "group": "A",
+      "degree": 10,
+      "genus": 1,
+      "passport": "2.6/2.2.3/2.2.3/2.6",
+      "candidate_pairs": 17653440,
+      "job": "structured_A10_1fb6d6547c3b",
+      "search_complete": true
+    }
+  ]
+}

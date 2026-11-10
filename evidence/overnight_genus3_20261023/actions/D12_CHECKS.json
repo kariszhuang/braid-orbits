@@ -1,0 +1,100 @@
+{
+  "claims": [
+    "C226",
+    "C227"
+  ],
+  "passed": true,
+  "scope": "Complete degree12, source genus3 full all-smooth exclusion, using C225 global transposition obstruction",
+  "not_claimed": [
+    "global nonexistence",
+    "all genus12",
+    "distinct braid-state counts",
+    "human or formal proof approval"
+  ],
+  "single_three": {
+    "necessary_e": 46656,
+    "wrong_b_index": 23401,
+    "literal_negatives": 23255,
+    "unresolved": 0,
+    "maximum_word_length": 7,
+    "independent_enumeration_sha256": "592d91340694b7449d3503c1adaa60cdf9924e208772198f10837c6bae8c00fd"
+  },
+  "double_transposition": {
+    "a_class": 1485,
+    "full_pair_frames_labelled": 990,
+    "bounded_frames_labelled": 180,
+    "rotation_classes": 16,
+    "support_partitions": 42735,
+    "cyclic_tree_supports": 377,
+    "necessary_e": 104232,
+    "wrong_b_index": 57314,
+    "twist_negatives": 46830,
+    "late_literal_negatives": 88,
+    "unresolved": 0,
+    "maximum_late_word_length": 3,
+    "independent_sorted_record_sha256": "d37dee8191980f5897dcaf099622214c3127bf515ea65b0b67a337b3643054ae"
+  },
+  "target_degree_lower_bound": 13,
+  "bindings": [
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/exact_d12_three.py",
+      "sha256": "02b2f651df3e73b5c8807ac507b2e29174b7df0d9c57a1d19b53573a0b26fa1e"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/d12_three_audit.rs",
+      "sha256": "220d562c4fda6fb6a4349559cb9381bc3ba3fb569b3d648c89da6975ed65fe02"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/d12_double.rs",
+      "sha256": "ed463c7a50c060c80ad11c570e626f64ea21ed0cc1f405badd77f88b51d38d4b"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/check_d12_pending.py",
+      "sha256": "a383aa3279e66b74f8bf40178b9d52b5c6ec51cb3c9963273f261c6e73f86278"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/audit_d12_double.py",
+      "sha256": "77149b616662ae04ef9a68ea655f98492e0becea4e21e51efccde23b94303fba"
+    },
+    {
+      "path": "evidence/overnight_genus3_20261023/actions/DEGREE_TWELVE.md",
+      "sha256": "e0210354a186572eeec9e8368dc4534b64eda4162139434ccc6b3fae1bcde6f3"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d12_three_20261023_0148/RESULT.json",
+      "sha256": "85e049426f84046da0d73b84a3e4ec65acf851385d768e9564cf9bbac7001326"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d12_three_audit_20261023_0200/RESULT.json",
+      "sha256": "efc67a98bc4510fe37040bc65703e207f0380a0250344584cb6dfbb140c0cfca"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d12_three_audit_20261023_0200/ENUMERATION.bin",
+      "sha256": "592d91340694b7449d3503c1adaa60cdf9924e208772198f10837c6bae8c00fd"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d12_double_final_20261023_0220/RESULT.json",
+      "sha256": "1f39dd11b6df10ee14bcf2beaa9a813394fc5e5173c99a7a84cfb8457f834cab"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d12_double_final_20261023_0220/ENUMERATION.bin",
+      "sha256": "a639b40ec6981febdae5c6074c5e9078498cd50c262c4e58c0f1fb97dee9ecb0"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d12_double_final_20261023_0220/UNRESOLVED.jsonl",
+      "sha256": "9ac5cc513c45d78468cd0c5d35c4ca4e162fab70e2e90c13b8737386132b2ad4"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d12_double_bfs_20261023_0215/RESULT.json",
+      "sha256": "ccb24b73d4b09b2a15ebd6ca03a95ac42ada66611d55d85d33caa99e61853245"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d12_double_bfs_20261023_0215/WITNESSES.jsonl",
+      "sha256": "547acbdba100679edc375fd3362788b528560ed56dc652b93b6d9fdf0cf14f18"
+    },
+    {
+      "path": "/Volumes/T7/Research/genus3_d12_double_audit_20261023_0220/RESULT.json",
+      "sha256": "da241d38fbce63e00041f6b1ad47f331808f853542d17f99d754ff86a0d0cdbc"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "passports": 66,
+  "literal_cycle_type_checks": 264,
+  "round_trip_entry_checks": 264,
+  "native_compile": "success",
+  "hashes": {
+    "docs/professor-report/smooth-positive-genus.tex": "441062a38e6c07c7285b4b3394e584f1d26fd8536743898d6f3f902ed6112baf",
+    "docs/professor-report/make_smooth_report.py": "a241bc6862b22715aefd91323ede46c184d184eac4efab8634812ced3bd5913c"
+  },
+  "date": "2026-10-12",
+  "kind": "passport_notation_revision",
+  "quotient": "unchanged: simultaneous S_d conjugation",
+  "format": "four explicit cycle types in displayed tuple order",
+  "user_edits_preserved": true,
+  "separate_pdf_export": false,
+  "search_lifecycle_modified": false
+}

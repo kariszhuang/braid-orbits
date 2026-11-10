@@ -1,0 +1,343 @@
+{
+  "raw_root": "/Volumes/T7/Research/smooth_noncyclic_20261012_105911_639977",
+  "quotient": "simultaneous S15 conjugation",
+  "closed_components": [
+    {
+      "folder": "job/component_0000",
+      "summary": {
+        "status": "closed_smooth",
+        "degree": "15",
+        "genus": "5",
+        "states": "1080",
+        "group_order": "233280",
+        "ambient": "A",
+        "full_group": "false",
+        "word": "",
+        "seed": "[(1 3 2), (1 4 7 10 13)(2 5 8 11 14)(3 6 9 12 15), (1 5 12 15 9)(2 4 10 13 7)(3 6 11 14 8), (1 11 14 6 8)(2 12 15 5 7)(3 10 13 4 9)]"
+      },
+      "geometry": {
+        "source_genus": 5,
+        "quotient_genus": 2,
+        "defect": 0,
+        "smooth": true,
+        "small_position": 1,
+        "relative_branch_value_count": 1,
+        "quotient_permutations": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            0
+          ],
+          [
+            1,
+            3,
+            0,
+            4,
+            2
+          ],
+          [
+            3,
+            2,
+            0,
+            4,
+            1
+          ]
+        ],
+        "block_partition": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            6,
+            7,
+            8
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            12,
+            13,
+            14
+          ]
+        ],
+        "geometry": "nonisotrivial by fixed-genus2 quotient theorem; human review pending"
+      },
+      "independent_group_order": 233280,
+      "table_sha256": "13a03b921c314b8c04c172efe5d996612172b8d8eb2ec77ab8b4d66a57c24e87",
+      "component_id": "a4a5a081c360cbeb4e3afb42d3cc5727a3512fba46f0481d04a91c263ec0050c",
+      "known_component": false
+    },
+    {
+      "folder": "job/component_0003",
+      "summary": {
+        "status": "closed_smooth",
+        "degree": "15",
+        "genus": "5",
+        "states": "540",
+        "group_order": "233280",
+        "ambient": "A",
+        "full_group": "false",
+        "word": "",
+        "seed": "[(1 3 2), (1 4 7 10 13)(2 5 8 11 14)(3 6 9 12 15), (1 5 11 15 9)(2 4 10 13 7)(3 6 12 14 8), (1 12 15 6 8)(2 11 14 5 7)(3 10 13 4 9)]"
+      },
+      "geometry": {
+        "source_genus": 5,
+        "quotient_genus": 2,
+        "defect": 0,
+        "smooth": true,
+        "small_position": 1,
+        "relative_branch_value_count": 1,
+        "quotient_permutations": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            0
+          ],
+          [
+            1,
+            3,
+            0,
+            4,
+            2
+          ],
+          [
+            3,
+            2,
+            0,
+            4,
+            1
+          ]
+        ],
+        "block_partition": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            6,
+            7,
+            8
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            12,
+            13,
+            14
+          ]
+        ],
+        "geometry": "nonisotrivial by fixed-genus2 quotient theorem; human review pending"
+      },
+      "independent_group_order": 233280,
+      "table_sha256": "c168b3c0854f32eef55f810946c8235e7e5f2bb053c1db72f852589381fca1b6",
+      "component_id": "8d519ac2d5c3c66386bfee6c4243f2d8099cd5b750e6c5074c4031e6bd55882b",
+      "known_component": false
+    },
+    {
+      "folder": "job/component_0004",
+      "summary": {
+        "status": "closed_smooth",
+        "degree": "15",
+        "genus": "5",
+        "states": "540",
+        "group_order": "233280",
+        "ambient": "A",
+        "full_group": "false",
+        "word": "",
+        "seed": "[(1 2 3), (1 4 7 10 13)(2 5 8 11 14)(3 6 9 12 15), (1 5 11 15 9)(2 6 12 14 8)(3 4 10 13 7), (1 11 14 5 8)(2 10 13 4 9)(3 12 15 6 7)]"
+      },
+      "geometry": {
+        "source_genus": 5,
+        "quotient_genus": 2,
+        "defect": 0,
+        "smooth": true,
+        "small_position": 1,
+        "relative_branch_value_count": 1,
+        "quotient_permutations": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            0
+          ],
+          [
+            1,
+            3,
+            0,
+            4,
+            2
+          ],
+          [
+            3,
+            2,
+            0,
+            4,
+            1
+          ]
+        ],
+        "block_partition": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            6,
+            7,
+            8
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            12,
+            13,
+            14
+          ]
+        ],
+        "geometry": "nonisotrivial by fixed-genus2 quotient theorem; human review pending"
+      },
+      "independent_group_order": 233280,
+      "table_sha256": "64bc379dc29419a3183060ad3591a4daf417c7881360c642d92c1160d83a256c",
+      "component_id": "9415bf09f48a4ba4257106e418cc65777d055954aaae390a71e56c977e1ae19f",
+      "known_component": false
+    },
+    {
+      "folder": "job/component_0005",
+      "summary": {
+        "status": "closed_smooth",
+        "degree": "15",
+        "genus": "5",
+        "states": "540",
+        "group_order": "233280",
+        "ambient": "A",
+        "full_group": "false",
+        "word": "",
+        "seed": "[(1 3 2), (1 4 7 10 13)(2 5 8 11 14)(3 6 9 12 15), (1 4 11 15 9)(2 6 12 14 8)(3 5 10 13 7), (1 12 15 6 7)(2 11 14 4 9)(3 10 13 5 8)]"
+      },
+      "geometry": {
+        "source_genus": 5,
+        "quotient_genus": 2,
+        "defect": 0,
+        "smooth": true,
+        "small_position": 1,
+        "relative_branch_value_count": 1,
+        "quotient_permutations": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            0
+          ],
+          [
+            1,
+            3,
+            0,
+            4,
+            2
+          ],
+          [
+            3,
+            2,
+            0,
+            4,
+            1
+          ]
+        ],
+        "block_partition": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            6,
+            7,
+            8
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            12,
+            13,
+            14
+          ]
+        ],
+        "geometry": "nonisotrivial by fixed-genus2 quotient theorem; human review pending"
+      },
+      "independent_group_order": 233280,
+      "table_sha256": "b7b15b93dfe8064179aa89f47b8e0fb697731b3e372f6f080a83f6f3bb191370",
+      "component_id": "c5bdb3e800a6d5d7dcc879e544378f66fb351f1330aa3bb79f5f4afb3c8211ac",
+      "known_component": false
+    }
+  ],
+  "partial_state_counts": []
+}

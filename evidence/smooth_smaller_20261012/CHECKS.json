@@ -1,0 +1,126 @@
+{
+  "coverage": {
+    "expected": "576",
+    "enumerated": "576",
+    "identity": "120",
+    "intransitive": "72",
+    "qualifying": "384",
+    "unique_seed_states": "19",
+    "complete": "true",
+    "elapsed_seconds": "0.008382792"
+  },
+  "independent_occurrence_counts": {
+    "identity": 120,
+    "intransitive": 72,
+    "qualifying": 384
+  },
+  "every_qualifying_occurrence_and_six_neighbors_checked": true,
+  "independent_closed_components_pairwise_disjoint": true,
+  "every_nondeferred_seed_membership_checked": true,
+  "quotient_group_order": 3,
+  "saved_states_geometry_checked": 76,
+  "independent_six_move_closed_components": 7,
+  "additional_closed_components": 2,
+  "partial_state_counts": 0,
+  "deferred_seed_states": 0,
+  "independent_audit_seconds": 0.6520242500118911,
+  "quotient": "simultaneous S12 conjugation",
+  "scope": "All576 fixed-quotient solved frames; all seed resolutions attempted; not a degree census",
+  "raw_root": "/Volumes/T7/Research/smooth_smaller_20261012_111550_841739",
+  "raw_checks_sha256": "2c2dbb72a69e1aeca205733abbc4dc9fa9fa8e1dbd5fe7e4f68e3bcafe05997e",
+  "raw_finished_sha256": "3cd0167de6636d8a4f5745e51377491f73b3f4cc068c12022b45c2ca653bcd50",
+  "raw_catalog_sha256": "294cc01ae2bd02b32c445ce616d74acb8b99054bd5184e5fa65a636c65dd2f47",
+  "binary_sha256": "065436242d3c0786469e3b121c57bce7d9bdc3d1abbc3b0016a0dc4e15263342",
+  "regressions": {
+    "rust_tests": 2,
+    "python_tests": 3,
+    "direct_frames": 331776,
+    "solved_frames": 576,
+    "literal_set_equality": true
+  },
+  "additional_read_only_action_audit": [
+    {
+      "folder": "job/component_0005",
+      "geometry": "isotrivial_elliptic; human review pending",
+      "group_order": 1728,
+      "local_cubic_vectors": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "normal_subgroup": "V4^3",
+      "normal_subgroup_order": 64,
+      "position_state_counts": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 3
+      },
+      "quotient_abelian": false,
+      "quotient_element_orders": {
+        "1": 1,
+        "3": 26
+      },
+      "quotient_order": 27
+    },
+    {
+      "folder": "job/component_0009",
+      "geometry": "isotrivial_elliptic; human review pending",
+      "group_order": 576,
+      "local_cubic_vectors": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "normal_subgroup": "V4^3",
+      "normal_subgroup_order": 64,
+      "position_state_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "quotient_abelian": true,
+      "quotient_element_orders": {
+        "1": 1,
+        "3": 8
+      },
+      "quotient_order": 9
+    }
+  ],
+  "mathematical_review": "human_review_pending"
+}

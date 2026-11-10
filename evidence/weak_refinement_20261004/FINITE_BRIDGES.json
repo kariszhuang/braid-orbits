@@ -1,0 +1,99 @@
+{
+  "validation_root": "/Volumes/T7/Research/weak_refinement_20261004_validation",
+  "binary_sha256": "f3a2f1d820cfa79d8825485f9cf9e963da428b6e9e93f84a3bd9f09e0a8b74e5",
+  "plan_sha256": "6e7db3c80716087a0105ea4d567cbfcb830215b24d26e3b0c5012d1a81eee46c",
+  "checks_sha256": "1b939c75b293e3994e8cae9bcf9a2b978460eef882bc741e162fd76a8ffb9376",
+  "scope": "Fifteen exact sorted-source-state one-cut S18-to-A18 shards; resolved, not an A18 census",
+  "shards": [
+    {
+      "name": "fiber_exact_v1_3eaa652e1c6e0ba9_A18_s000",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_3eaa652e1c6e0ba9_A18_s000/SUMMARY.txt",
+      "summary_sha256": "0a0fe1e44dca477617c038d8fba351643f28712fef29c55fbb16ea1ef75bb673",
+      "source_sha256": "3eaa652e1c6e0ba9d4ad7a1c00e52113595d8d4b2c1cecc4b517a674b2065a3d"
+    },
+    {
+      "name": "fiber_exact_v1_3eaa652e1c6e0ba9_A18_s008",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_3eaa652e1c6e0ba9_A18_s008/SUMMARY.txt",
+      "summary_sha256": "e073854a7d1a01230a0a33b9514c1fc34779392c3899eac58904087cffe6f25a",
+      "source_sha256": "3eaa652e1c6e0ba9d4ad7a1c00e52113595d8d4b2c1cecc4b517a674b2065a3d"
+    },
+    {
+      "name": "fiber_exact_v1_fda059cbbb076609_A18_s000",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_fda059cbbb076609_A18_s000/SUMMARY.txt",
+      "summary_sha256": "c2b33111d578d27388ccf41fad9dce19e839693056a4e89fbff8670441e4c37a",
+      "source_sha256": "fda059cbbb076609682def0dbfa8786e739a3ebd78fbc585d87c3d1a59ebc9c1"
+    },
+    {
+      "name": "fiber_exact_v1_fda059cbbb076609_A18_s008",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_fda059cbbb076609_A18_s008/SUMMARY.txt",
+      "summary_sha256": "0c648c1dc5660cf62b2e3268b6c20c67cab58cffe3d59fc59fa155b7171f5b5f",
+      "source_sha256": "fda059cbbb076609682def0dbfa8786e739a3ebd78fbc585d87c3d1a59ebc9c1"
+    },
+    {
+      "name": "fiber_exact_v1_fda059cbbb076609_A18_s016",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_fda059cbbb076609_A18_s016/SUMMARY.txt",
+      "summary_sha256": "395565dbcda73bf0e7c810333c45aa174593bbebde437520c48d2f5a91e7dd5b",
+      "source_sha256": "fda059cbbb076609682def0dbfa8786e739a3ebd78fbc585d87c3d1a59ebc9c1"
+    },
+    {
+      "name": "fiber_exact_v1_fda059cbbb076609_A18_s024",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_fda059cbbb076609_A18_s024/SUMMARY.txt",
+      "summary_sha256": "27620bb780452cc21c24bc1568c80bd8957c015b3f362f42c214a59d285b639c",
+      "source_sha256": "fda059cbbb076609682def0dbfa8786e739a3ebd78fbc585d87c3d1a59ebc9c1"
+    },
+    {
+      "name": "fiber_exact_v1_fda059cbbb076609_A18_s032",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_fda059cbbb076609_A18_s032/SUMMARY.txt",
+      "summary_sha256": "c9e14936014ed5f7f0974eb08bfd4f98967ec7dd84b821da1c80b5acc944f9d8",
+      "source_sha256": "fda059cbbb076609682def0dbfa8786e739a3ebd78fbc585d87c3d1a59ebc9c1"
+    },
+    {
+      "name": "fiber_exact_v1_fda059cbbb076609_A18_s040",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_fda059cbbb076609_A18_s040/SUMMARY.txt",
+      "summary_sha256": "ed5addd476a136aeb756f53bbf4f376f2daf17d7407506a8df210a8d719c3ed7",
+      "source_sha256": "fda059cbbb076609682def0dbfa8786e739a3ebd78fbc585d87c3d1a59ebc9c1"
+    },
+    {
+      "name": "fiber_exact_v1_fda059cbbb076609_A18_s048",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_fda059cbbb076609_A18_s048/SUMMARY.txt",
+      "summary_sha256": "aa4178ce31ef8125a4c73349b9d719ea92fe388ac5bcef90e0896248b66904ff",
+      "source_sha256": "fda059cbbb076609682def0dbfa8786e739a3ebd78fbc585d87c3d1a59ebc9c1"
+    },
+    {
+      "name": "fiber_exact_v1_fda059cbbb076609_A18_s056",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_fda059cbbb076609_A18_s056/SUMMARY.txt",
+      "summary_sha256": "f620760fb4db73805b0cc80a1c79872b8408fda96adcbf73430ba6d4ee9c4539",
+      "source_sha256": "fda059cbbb076609682def0dbfa8786e739a3ebd78fbc585d87c3d1a59ebc9c1"
+    },
+    {
+      "name": "fiber_exact_v1_0a995311169fb90e_A18_s000",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_0a995311169fb90e_A18_s000/SUMMARY.txt",
+      "summary_sha256": "fb5dfaab87df16c1ee9278e50e03fced773c37ab7b144ac71e2d062e496cfcbb",
+      "source_sha256": "0a995311169fb90eb941c21474c745d25a1d33ce5216773a68a4de7e77ca0e0a"
+    },
+    {
+      "name": "fiber_exact_v1_0a995311169fb90e_A18_s008",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_0a995311169fb90e_A18_s008/SUMMARY.txt",
+      "summary_sha256": "b5ecd0f9968d5d463e6916c37c6a86a78cf45d113469448892c65b91d52d7e81",
+      "source_sha256": "0a995311169fb90eb941c21474c745d25a1d33ce5216773a68a4de7e77ca0e0a"
+    },
+    {
+      "name": "fiber_exact_v1_0a995311169fb90e_A18_s016",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_0a995311169fb90e_A18_s016/SUMMARY.txt",
+      "summary_sha256": "e34cd6ef971846540f3480603da663df20b11606305f1fb3da02a54a77491b5a",
+      "source_sha256": "0a995311169fb90eb941c21474c745d25a1d33ce5216773a68a4de7e77ca0e0a"
+    },
+    {
+      "name": "fiber_exact_v1_0a995311169fb90e_A18_s024",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_0a995311169fb90e_A18_s024/SUMMARY.txt",
+      "summary_sha256": "628a2a72ee91592073e3adc73bfee5a8b6e3464df039dd5872fc1d658f224b59",
+      "source_sha256": "0a995311169fb90eb941c21474c745d25a1d33ce5216773a68a4de7e77ca0e0a"
+    },
+    {
+      "name": "fiber_exact_v1_0a995311169fb90e_A18_s032",
+      "summary": "/Volumes/T7/Research/weak_refinement_20261004_validation/fiber_exact_v1_0a995311169fb90e_A18_s032/SUMMARY.txt",
+      "summary_sha256": "ce802248ab5c6bdf3e3649a7ae0e20885e167e11f45b2d54dc9375962c5dc68d",
+      "source_sha256": "0a995311169fb90eb941c21474c745d25a1d33ce5216773a68a4de7e77ca0e0a"
+    }
+  ]
+}

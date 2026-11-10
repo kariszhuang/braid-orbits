@@ -1,0 +1,1426 @@
+{
+  "date": "2026-10-12",
+  "raw_root": "/Volumes/T7/Research/smooth_geometry_20261012_100048_521722",
+  "status": "all_geometric_hypotheses_passed",
+  "counts": {
+    "components": 52,
+    "isotrivial_elliptic_components": 42,
+    "isotrivial_elliptic_states": 732,
+    "nonisotrivial_higher_genus_components": 10,
+    "nonisotrivial_higher_genus_states": 21648,
+    "states": 22380
+  },
+  "elapsed_seconds": 3.777443332830444,
+  "python_regressions_passed": 9,
+  "raw_checks_sha256": "ca25b7c660162720975bf9f106f08b3e2a71f90d2e718c6a0f47f112d03a7e82",
+  "raw_finished_sha256": "1d28818b308af337bc59840b7f196ed05c1168ea3c40cf9e1de69d12a545a54a",
+  "snapshot_sha256": {
+    "PLAN.md": "3961e7927ba9c93f0983804850a5c7cc5b61d9aecf13773642c305923b60c0df",
+    "PROOF.md": "cd9388e986f863de83c9e6fdfaf85abe7ec9fa632a0245266703fb810c490976",
+    "SOURCES.json": "b2261d89e72f8f07aef7324f6e03e57b111eaddfd3285a399d218cae5a085205",
+    "input/CATALOG.json": "e6b07d6f6c53716a3737215ff628601c503df7921d00088650e48a115f747375",
+    "input/PRIOR_CHECKS.json": "71eb8ce8eca6afcd885e7ee1fe77d27ad88dbf45da2d74af902f235369305f69",
+    "source/scripts/test_smooth_geometry.py": "c074646323c5b5d294816d6157a844bbfbd215c19c9f86ac6926d3971c2639df",
+    "source/scripts/verify_smooth_geometry.py": "ff579a1972be0cca552a715497298debfe42f791dfbb7af92e2cb6290f8deeee"
+  },
+  "closure_scope": "hash-bound C138 literal six-move closure reused; graph connectivity and inverse edges independently rechecked here",
+  "classification_basis": "PROOF.md: fixed quotient and exactly one moving branch value; not numerical moduli computation",
+  "human_mathematical_review": "pending; no approval inferred",
+  "formal_proof_assistant": false,
+  "components": [
+    {
+      "folder": "r3_k4/component_0000",
+      "component_id": "cfb07095c74042d841b07a6520f243337cd16f29fc24e2c50bc4ef6b71ee8106",
+      "states_checked": 12,
+      "table_sha256": "8df5bb50df7286d47e94504caa12ed1c64b44b86b8371e87bebd1ba52e048311",
+      "all_states_passed": true,
+      "group_order": 96,
+      "degree": 12,
+      "blocks": 3,
+      "block_size": 4,
+      "source_genus": 2,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        2
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k4/component_0001",
+      "component_id": "49cdda242d3c92c3a440f98f6fea060abfda56b82b7583a3a90ad2adebdb05ee",
+      "states_checked": 12,
+      "table_sha256": "a5891ad7dcfe3ee4c6d9db74316f6e3af6a2a480ca183d9990b5eaa066df1a18",
+      "all_states_passed": true,
+      "group_order": 96,
+      "degree": 12,
+      "blocks": 3,
+      "block_size": 4,
+      "source_genus": 2,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        2
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k5/component_0000",
+      "component_id": "00a553d871edfd67cd991e747e7ac51c7ee56606f3b4b83976734accc0e7dcc9",
+      "states_checked": 12,
+      "table_sha256": "a9c9cc5c74f8e22db0e094be64421c4110233c677949c0c00e75c1be6d267be5",
+      "all_states_passed": true,
+      "group_order": 2592000,
+      "degree": 15,
+      "blocks": 3,
+      "block_size": 5,
+      "source_genus": 2,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        2
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k5/component_0001",
+      "component_id": "32730627dadf72f8d5f630dc20b45edee6076e22c9911ddf771b9988489457ae",
+      "states_checked": 12,
+      "table_sha256": "60458ca254dbe224e2eb16473677af0cb88b5d694c83d84b978044c7b1617c22",
+      "all_states_passed": true,
+      "group_order": 648000,
+      "degree": 15,
+      "blocks": 3,
+      "block_size": 5,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        5
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k5/component_0002",
+      "component_id": "738d12fd91f3604d27a514e0d4deccf431e4118b7055230b36d11850927f0c8c",
+      "states_checked": 24,
+      "table_sha256": "d217864f638e1b70a9741c39c91e1c11976ae0d2a35b7f1f8dada6116e694ce5",
+      "all_states_passed": true,
+      "group_order": 6000,
+      "degree": 15,
+      "blocks": 3,
+      "block_size": 5,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        5
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r5_k3/component_0000",
+      "component_id": "d88180bf7ec7287b3f840bb1ec895d724b0daae1ffe670d77b6ba14d9e7b79bf",
+      "states_checked": 540,
+      "table_sha256": "6b8611aade879e0a108f2b3d6cd594ff8fb0609c82b1fe4b0d166d3b8de78485",
+      "all_states_passed": true,
+      "group_order": 19440,
+      "degree": 15,
+      "blocks": 5,
+      "block_size": 3,
+      "source_genus": 5,
+      "quotient_genus": 2,
+      "local_cycle_lengths": [
+        3
+      ],
+      "kummer": {
+        "equation": "y^5=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 5,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": -6,
+      "geometry": "nonisotrivial_higher_genus"
+    },
+    {
+      "folder": "r5_k3/component_0001",
+      "component_id": "46d7a8bf7c2620045ec0ad373b4e721436b47a0a9a7720ed7229f55fc08837b7",
+      "states_checked": 540,
+      "table_sha256": "f4c51f215d64fc8ef8185123c0f15ce8e7d100fe7e58a1bfcb47fa2dd091eafe",
+      "all_states_passed": true,
+      "group_order": 19440,
+      "degree": 15,
+      "blocks": 5,
+      "block_size": 3,
+      "source_genus": 5,
+      "quotient_genus": 2,
+      "local_cycle_lengths": [
+        3
+      ],
+      "kummer": {
+        "equation": "y^5=x^1*(x-1)^2",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 5,
+        "u": 1,
+        "v": 2
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": -6,
+      "geometry": "nonisotrivial_higher_genus"
+    },
+    {
+      "folder": "r3_k6/component_0000",
+      "component_id": "bafb69791bb94d01b173ec2418480d60f99c41bf6dc339398aa85dd17971d2e0",
+      "states_checked": 12,
+      "table_sha256": "b126c3ff46e33d929a01bdf9efeed1eb7d59b578386a9f05ffad566ad270cda0",
+      "all_states_passed": true,
+      "group_order": 69984,
+      "degree": 18,
+      "blocks": 3,
+      "block_size": 6,
+      "source_genus": 2,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        2
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k6/component_0001",
+      "component_id": "4a005835d7c822655e46646c13cb7d04be0a29ee56ed070b5596246295991fe4",
+      "states_checked": 12,
+      "table_sha256": "df98065229290e3890e305b9460c47146c2c4cc6223ed1f3326a6ce134bfb339",
+      "all_states_passed": true,
+      "group_order": 2592000,
+      "degree": 18,
+      "blocks": 3,
+      "block_size": 6,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        5
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k6/component_0002",
+      "component_id": "ef3fa340e48f6127d056b04d9765660b968d1b5833d3428dea96d378b4dcebc2",
+      "states_checked": 24,
+      "table_sha256": "356f4cf4d413ea5da325fc50ae67c8af07642d299d531d15b080ceba48f90978",
+      "all_states_passed": true,
+      "group_order": 559872000,
+      "degree": 18,
+      "blocks": 3,
+      "block_size": 6,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        5
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k6/component_0003",
+      "component_id": "4cc55a59fec19752058c0be40c1cbe18626441c2fbfa994929fbaea90057c0a0",
+      "states_checked": 12,
+      "table_sha256": "a6886d8ed9554dc1d029af00ce9cbd527a35a94833efb87a65d124889a03a67c",
+      "all_states_passed": true,
+      "group_order": 20736,
+      "degree": 18,
+      "blocks": 3,
+      "block_size": 6,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        3,
+        3
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k6/component_0004",
+      "component_id": "a8f5c817052d00bb86eae4ed7ec89fdff4a884adcefdac6ea38bdc2d47934382",
+      "states_checked": 24,
+      "table_sha256": "3cc67107aaa362c7c1b77b2031ad9a02815021c9933180ec35a6f0318b3788d4",
+      "all_states_passed": true,
+      "group_order": 559872000,
+      "degree": 18,
+      "blocks": 3,
+      "block_size": 6,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        4
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k6/component_0005",
+      "component_id": "8490b4c3c4e5ec56b2f466ceadc347f21fa57fca2523f021bf7ef2b42ba3d109",
+      "states_checked": 12,
+      "table_sha256": "1b65c753c391428d8a3750edfe26bcb84c4a0c76e984916ba15611e77122c1bf",
+      "all_states_passed": true,
+      "group_order": 2592000,
+      "degree": 18,
+      "blocks": 3,
+      "block_size": 6,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        3,
+        3
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k6/component_0006",
+      "component_id": "3c7fa009848a19062b6cbffabc5fcf513b6e66cf18b0cde0851bbf54ddfe6841",
+      "states_checked": 24,
+      "table_sha256": "5213d86d5f6a59a619e868ad8a61159d363e5d30f1fe39b10bab87d385f8b9fb",
+      "all_states_passed": true,
+      "group_order": 559872000,
+      "degree": 18,
+      "blocks": 3,
+      "block_size": 6,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        4
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r5_k4/component_0000",
+      "component_id": "d159aec520c0bde3af9951f1311c5c93725dee8827f30acfc5285e4f73930fc1",
+      "states_checked": 240,
+      "table_sha256": "45973df9a467f5905df0dfeb8e7ebf61dad2ccfcbd31b8a0dc66d992095b69e6",
+      "all_states_passed": true,
+      "group_order": 2560,
+      "degree": 20,
+      "blocks": 5,
+      "block_size": 4,
+      "source_genus": 6,
+      "quotient_genus": 2,
+      "local_cycle_lengths": [
+        2,
+        2
+      ],
+      "kummer": {
+        "equation": "y^5=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 5,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": -8,
+      "geometry": "nonisotrivial_higher_genus"
+    },
+    {
+      "folder": "r5_k4/component_0001",
+      "component_id": "ae58a1eaf6aaac02742d19a9b483359cffa20b05097e103ea54e8fc3a7f1fdb5",
+      "states_checked": 240,
+      "table_sha256": "cae15e538d88f9d80e1962bd3fbcf3e2a78c4b75e8986da44f1ad20275b047fa",
+      "all_states_passed": true,
+      "group_order": 2560,
+      "degree": 20,
+      "blocks": 5,
+      "block_size": 4,
+      "source_genus": 6,
+      "quotient_genus": 2,
+      "local_cycle_lengths": [
+        2,
+        2
+      ],
+      "kummer": {
+        "equation": "y^5=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 5,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": -8,
+      "geometry": "nonisotrivial_higher_genus"
+    },
+    {
+      "folder": "r5_k4/component_0002",
+      "component_id": "327b4afb42f6bdf2ee4e2ceeb7c538badeed9d20c8d551375c7827030ce7bebd",
+      "states_checked": 240,
+      "table_sha256": "ba89da60e140aa2574ee0fb3109065d6216067702754ae48957619c2bdedf684",
+      "all_states_passed": true,
+      "group_order": 2560,
+      "degree": 20,
+      "blocks": 5,
+      "block_size": 4,
+      "source_genus": 6,
+      "quotient_genus": 2,
+      "local_cycle_lengths": [
+        2,
+        2
+      ],
+      "kummer": {
+        "equation": "y^5=x^1*(x-1)^2",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 5,
+        "u": 1,
+        "v": 2
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": -8,
+      "geometry": "nonisotrivial_higher_genus"
+    },
+    {
+      "folder": "r5_k4/component_0003",
+      "component_id": "e98e1ee422a891845469ba338b2d950205a9670f43b1e88e74b0bddcd60487b7",
+      "states_checked": 240,
+      "table_sha256": "d607ad69075c87aaa676d106766fe787db6e5384e1976c7433a963f6864ed272",
+      "all_states_passed": true,
+      "group_order": 2560,
+      "degree": 20,
+      "blocks": 5,
+      "block_size": 4,
+      "source_genus": 6,
+      "quotient_genus": 2,
+      "local_cycle_lengths": [
+        2,
+        2
+      ],
+      "kummer": {
+        "equation": "y^5=x^1*(x-1)^2",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 5,
+        "u": 1,
+        "v": 2
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": -8,
+      "geometry": "nonisotrivial_higher_genus"
+    },
+    {
+      "folder": "r3_k7/component_0000",
+      "component_id": "bf9231dbff4c6bf1076a47ae70d2fae8858cb0d49e4b8dbd54c6e97ba517ef57",
+      "states_checked": 12,
+      "table_sha256": "368b9d3697272ff8bb9d99a11c3b4015aebcb24ca5451cf7ad25f927d9613cdd",
+      "all_states_passed": true,
+      "group_order": 192036096000,
+      "degree": 21,
+      "blocks": 3,
+      "block_size": 7,
+      "source_genus": 2,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        2
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k7/component_0001",
+      "component_id": "6f55f258daaa42b66fc62378ce3b836612dd2096187bf2a9c262f2e43f1380f9",
+      "states_checked": 12,
+      "table_sha256": "5f6faafad86684de15059dbcef11cd659ed37022a2e8d3578dc87fc8dd0cdb6f",
+      "all_states_passed": true,
+      "group_order": 48009024000,
+      "degree": 21,
+      "blocks": 3,
+      "block_size": 7,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        5
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k7/component_0002",
+      "component_id": "a7e597800087952957b9ca559b357370a0c8656b58e838e28ab091a03863e18f",
+      "states_checked": 24,
+      "table_sha256": "1f2d85de7f7e2ff5960bc1e79a3b7f932ffa02b954f83c8c01fca22a5274cc76",
+      "all_states_passed": true,
+      "group_order": 192036096000,
+      "degree": 21,
+      "blocks": 3,
+      "block_size": 7,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        5
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k7/component_0003",
+      "component_id": "42ea57c85168e8fdc36994ca8a927a066636db667c4e36d4c3b169e3f18d77e9",
+      "states_checked": 12,
+      "table_sha256": "52af6e2d8bcdc7b90c2c8bb22e1959a8d1affe3858b6a09c522d3930b7c4a4bd",
+      "all_states_passed": true,
+      "group_order": 48009024000,
+      "degree": 21,
+      "blocks": 3,
+      "block_size": 7,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        3,
+        3
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k7/component_0004",
+      "component_id": "414cc1dd37b617a95a0aad851b96fbf2f7fb2e625bf11306cd7cee142e988e6e",
+      "states_checked": 24,
+      "table_sha256": "8c8e42aa921b201f16140789c78c6f4b01c5df416e1ba7e1dace3a0cb4f4d5f7",
+      "all_states_passed": true,
+      "group_order": 14224896,
+      "degree": 21,
+      "blocks": 3,
+      "block_size": 7,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        4
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k7/component_0005",
+      "component_id": "201f8b48ed711df5aa38ea733195c31c5ad44d152a39f3f3f2a5bb2962049f02",
+      "states_checked": 12,
+      "table_sha256": "f19ab49a74bef70cd4c523e34eb5194cd7f801b7ba4bdc45125909d9e96150ac",
+      "all_states_passed": true,
+      "group_order": 48009024000,
+      "degree": 21,
+      "blocks": 3,
+      "block_size": 7,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        3,
+        3
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k7/component_0006",
+      "component_id": "81c25c749db69224180f4448b8b6f5d62e45859ea7235068a6ff71b3204e5aa9",
+      "states_checked": 24,
+      "table_sha256": "dfad5094c250deb422bc74f6d79cc44bd80bacb1d2745467fe95bc1a1a20b2b7",
+      "all_states_passed": true,
+      "group_order": 192036096000,
+      "degree": 21,
+      "blocks": 3,
+      "block_size": 7,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        4
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k7/component_0007",
+      "component_id": "f81b2a1465edebf2e14b5100a44e350d2e9ba96cadb58d561c47fc09fa60a8e8",
+      "states_checked": 12,
+      "table_sha256": "fff4d9181ab0f28a9d3250633efa0e96d29d316fad1deadef14ff8a83e0bd556",
+      "all_states_passed": true,
+      "group_order": 48009024000,
+      "degree": 21,
+      "blocks": 3,
+      "block_size": 7,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        2,
+        3
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k7/component_0008",
+      "component_id": "a989378dbe9f5df480cd12d257ad41442914a632be32afcc3e9e4085dbc94892",
+      "states_checked": 12,
+      "table_sha256": "573129a935038703a316127fa41611becf13f979ea7e21251b6976bdb67fb5f1",
+      "all_states_passed": true,
+      "group_order": 192036096000,
+      "degree": 21,
+      "blocks": 3,
+      "block_size": 7,
+      "source_genus": 4,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        7
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k7/component_0009",
+      "component_id": "817011de5c9d9f7c881cd28af505adfc06f0ec3b951ca99db9ce7434bb9da1af",
+      "states_checked": 24,
+      "table_sha256": "a5eba0dea8d74cc0d09f4268e66ad0bbdf34c534f1ad6ae55d1fb7786c3f02c4",
+      "all_states_passed": true,
+      "group_order": 48009024000,
+      "degree": 21,
+      "blocks": 3,
+      "block_size": 7,
+      "source_genus": 4,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        7
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k7/component_0010",
+      "component_id": "015e81ae9d36a393fedb1f2e36fdcda80a7f32e7fbdb90cccb06228cbde3ee6a",
+      "states_checked": 24,
+      "table_sha256": "74905ef319f673b3fb30bf355e11b9cb4b7e8b9934cc43e3d75a0ca4afb84c28",
+      "all_states_passed": true,
+      "group_order": 192036096000,
+      "degree": 21,
+      "blocks": 3,
+      "block_size": 7,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        2,
+        3
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r7_k3/component_0000",
+      "component_id": "e19ab8c460fbbf98924d36636f88a559ec63db0e8a0ebf38158cf59130081003",
+      "states_checked": 6804,
+      "table_sha256": "6ee27cd31b39bf921186a088b7df6bae4699c466388f1577f46bd9f387f3e53a",
+      "all_states_passed": true,
+      "group_order": 979776,
+      "degree": 21,
+      "blocks": 7,
+      "block_size": 3,
+      "source_genus": 8,
+      "quotient_genus": 3,
+      "local_cycle_lengths": [
+        3
+      ],
+      "kummer": {
+        "equation": "y^7=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 7,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": -12,
+      "geometry": "nonisotrivial_higher_genus"
+    },
+    {
+      "folder": "r7_k3/component_0001",
+      "component_id": "3ae9a20a82db3ee52d86ebf662b86c35bada5957d1cf910826e6e0b2c4b3be17",
+      "states_checked": 6804,
+      "table_sha256": "e2293d5127519bd7c0c9203d6c897c56ce49bc8d19d25ef38049f0a381d2bc49",
+      "all_states_passed": true,
+      "group_order": 979776,
+      "degree": 21,
+      "blocks": 7,
+      "block_size": 3,
+      "source_genus": 8,
+      "quotient_genus": 3,
+      "local_cycle_lengths": [
+        3
+      ],
+      "kummer": {
+        "equation": "y^7=x^1*(x-1)^3",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 7,
+        "u": 1,
+        "v": 3
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": -12,
+      "geometry": "nonisotrivial_higher_genus"
+    },
+    {
+      "folder": "r3_k8/component_0000",
+      "component_id": "3fc98eed0956328c309b42e962ab0259d86aa915c1ca8f30010a639d24f33b9b",
+      "states_checked": 12,
+      "table_sha256": "95b872c1cfccf51072118ca0c451e2d615274867f57af496b67f3eef79326f21",
+      "all_states_passed": true,
+      "group_order": 286654464,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 2,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        2
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0001",
+      "component_id": "ece2bc38c37aace89a00bcf2458e9ef97af2487c4cf405272fc24c1861c566b2",
+      "states_checked": 12,
+      "table_sha256": "3cde84ca16ce32aff3013bf3a9cf591bd3d5d9b7e3dcd5d00a64a7c5ce4c1e45",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        5
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0002",
+      "component_id": "56325ff0f1f2fb57014d06c8838a221e2dfa791248d8051a6f3959934eed0a8b",
+      "states_checked": 24,
+      "table_sha256": "1c10ee956f9f262b0dc1985376252da4337f47eda011f0dd38796bba0d3c07a9",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        5
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0003",
+      "component_id": "b4473110319115c0fb00f005da25e0004660265c686ae123c2ea8b042114f4b6",
+      "states_checked": 12,
+      "table_sha256": "c1972b8de233448c31a8c3a784db75b4de7d881c0b4a02a912d031154b46275c",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        3,
+        3
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0004",
+      "component_id": "175bf1f95f8d3134621352b40ad20eb710db84e6fa830e380ff60d1668cd04f2",
+      "states_checked": 24,
+      "table_sha256": "ad0f10504d72003e98701d11c9746814fa045c2a84645fa672a70326b45d7a07",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        4
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0005",
+      "component_id": "805fdbb7de7ba764dc213ce7c04399e51d39ca3efaf9cdd64787a1e03f8a9867",
+      "states_checked": 12,
+      "table_sha256": "82e01c90f9e67cc4cd08ca200927f78642ffebabff3f1ffbe2aa26654d52fa91",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        3,
+        3
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0006",
+      "component_id": "470eab7e47c2b1d33e5131611ef766fe5fb436bdce9f4dd8e3f65b4c8b6cc29b",
+      "states_checked": 24,
+      "table_sha256": "755831b784ccb03bbdffb0341ae7042815326407a4984a240adf40750feb901b",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        4
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0007",
+      "component_id": "1d5eef86e3f1621373896404c12e337ab664e73dcae7a8f07da0272c6aa6104c",
+      "states_checked": 24,
+      "table_sha256": "6e55044a0bb2e3698a55214a1e2357bf5b9bdb689922f0c03215208e0d26f094",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        2,
+        3
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0008",
+      "component_id": "1aca21f9e0522f64342212d80121cf993f69576d5d936ddb9e0e190d88940d6c",
+      "states_checked": 12,
+      "table_sha256": "9fef05d517824560fc9c7c838da6be7f8f973f4e915f9ad83fca6e602259d65c",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 4,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        7
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0009",
+      "component_id": "051cd896e52584a124fee784d03f8db1bf201aed1b7c2f87362940593d2a5318",
+      "states_checked": 24,
+      "table_sha256": "f77688ff7542abfb9c7752cb75750a671f547b9490a567c13ec6fba7a658837e",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 4,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        7
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0010",
+      "component_id": "8b2ec143d64692b09d4bb851d58686e4ae50cb1b46c40fedd1bd4aab0cf5b2d0",
+      "states_checked": 24,
+      "table_sha256": "490f331980d604ce51c0dbbce7850629e5118fa3f89e8a231da4abe8c9977957",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        2,
+        3
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0011",
+      "component_id": "a7b01ffa1b69e680eb05f6d7236142966c81ebcf1415d475ac7ef433d85e8e59",
+      "states_checked": 12,
+      "table_sha256": "0898e77f1de259564dd8137302e19c09b35eed1c64b3c5f6a981b937edb20ef1",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 4,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        3,
+        5
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0012",
+      "component_id": "a1f87197562e9b6a81c489e80b551152dbab1409d95cdff12007a4d2732c5b46",
+      "states_checked": 24,
+      "table_sha256": "87dc71cc63d8f96d8ebc14132e87d00db3cb76f639ec1ea093b731b6d2ac25aa",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 4,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        3,
+        5
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0013",
+      "component_id": "5cd7aa375600bed6873ee13d4cf045e0821be457622d350ea57b426c9bdff849",
+      "states_checked": 24,
+      "table_sha256": "b79065bb59966835384bba1020398883df5763b0d9d23ab439ea9e0623d6aeff",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 4,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        6
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0014",
+      "component_id": "bbf9c2dd5c4bb3deaa9925bc4f43f496fcc9c4fdbce624b8b07d3a268044071a",
+      "states_checked": 24,
+      "table_sha256": "11db43697d9979b1bd91ee7473e5ac34731f7aaed4d369ec2479e9ef46c59e9c",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 4,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        6
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0015",
+      "component_id": "4acc4d4723290b55aef1c02b367a58418e923b27845e8ffc068418c51ccf8504",
+      "states_checked": 12,
+      "table_sha256": "ba3c51b54bf8c85df766d8bb7044bdaf895a7b050ba117fe9143f823d2474e6d",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 4,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        4,
+        4
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0016",
+      "component_id": "16088d34ba33e12e5edd27fcf2b9c23c0db7adcd5c5099c13f90393816c778d3",
+      "states_checked": 24,
+      "table_sha256": "ca919152f786a0e15a3e532115626a50cedc3c603dd1da78e8a333878a47a5e1",
+      "all_states_passed": true,
+      "group_order": 98322481152000,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 4,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        4,
+        4
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0017",
+      "component_id": "01f5c85b5df3f055caf1a390ab237813cc53082fbda60f80e0a0d10d5c4b5dd4",
+      "states_checked": 12,
+      "table_sha256": "699dfd05b6fa3a92b32d987286bb040522ba74d745d910aa0510ec95de8a8312",
+      "all_states_passed": true,
+      "group_order": 24576,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r3_k8/component_0018",
+      "component_id": "9262ffcfd53125e24849526e7b030a0d94a23cdf010e75bab914545e3bdb3c34",
+      "states_checked": 12,
+      "table_sha256": "764ae6883139fbcbdddcd22de9708f92679e4d8942b0fc9d37fc9cfb0a4d81a0",
+      "all_states_passed": true,
+      "group_order": 56899584,
+      "degree": 24,
+      "blocks": 3,
+      "block_size": 8,
+      "source_genus": 3,
+      "quotient_genus": 1,
+      "local_cycle_lengths": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "kummer": {
+        "equation": "y^3=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 3,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": 0,
+      "geometry": "isotrivial_elliptic"
+    },
+    {
+      "folder": "r5_k5/component_0000",
+      "component_id": "55a14a72ae89b2b86956042bf228f5caf67c4a72707277ae628d6228ef846aa2",
+      "states_checked": 3000,
+      "table_sha256": "9d546c7eb3897419d80ab025cc8e0dd54ccce569d27d48ec2f7c09d4f4f6933a",
+      "all_states_passed": true,
+      "group_order": 4000000,
+      "degree": 25,
+      "blocks": 5,
+      "block_size": 5,
+      "source_genus": 8,
+      "quotient_genus": 2,
+      "local_cycle_lengths": [
+        5
+      ],
+      "kummer": {
+        "equation": "y^5=x^1*(x-1)^1",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 5,
+        "u": 1,
+        "v": 1
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": -10,
+      "geometry": "nonisotrivial_higher_genus"
+    },
+    {
+      "folder": "r5_k5/component_0001",
+      "component_id": "36699cbfdc13d347fe030b81739e7a4b157ed6951f97f6db3304059da592af9d",
+      "states_checked": 3000,
+      "table_sha256": "d6d9394e2d131f1aec855e612fded196f7ce3da4b3b9bdd1f5f4c0013de0934f",
+      "all_states_passed": true,
+      "group_order": 4000000,
+      "degree": 25,
+      "blocks": 5,
+      "block_size": 5,
+      "source_genus": 8,
+      "quotient_genus": 2,
+      "local_cycle_lengths": [
+        5
+      ],
+      "kummer": {
+        "equation": "y^5=x^1*(x-1)^2",
+        "interpretation": "smooth projective normalization; fixed quotient, NOT an equation of C",
+        "r": 5,
+        "u": 1,
+        "v": 2
+      },
+      "relative_branch_value_count": 1,
+      "tangent_pullback_degree": -10,
+      "geometry": "nonisotrivial_higher_genus"
+    }
+  ]
+}

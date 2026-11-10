@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "claim": "C237",
+  "passed": true,
+  "theorem": "saturated-single-cycle-star-prime-degree-passport-exclusions",
+  "production_target_genus": 3,
+  "conclusion": "not_all_smooth",
+  "reviewed_by_parent_and_geometry": true,
+  "human_or_formal_verification_recorded": false,
+  "scope": {
+    "degree": "prime",
+    "product_one": true,
+    "target_transitive": true,
+    "special_entry": "one nontrivial k-cycle, 2<=k<d, all other letters fixed",
+    "designated_partner": "exactly k point cycles, fixed points included",
+    "ordinary_pair_index_sums": "all strictly greater than d-1",
+    "full_braid_orbit": "all six Hurwitz moves modulo simultaneous S_d conjugacy",
+    "initial_order_or_full_pair_assumed": false,
+    "arbitrary_group_allowed": true
+  },
+  "rules": [
+    "prime k: every nondesignated ordinary cycle length is coprime to k",
+    "k=3: each nondesignated ordinary entry has one common nonzero cycle-length residue modulo3",
+    "k=4: each nondesignated ordinary entry has one common odd cycle-length residue modulo4 in EVERY prime degree, by four-tile periodicity, not universal finite-field invertibility",
+    "ell|k prime and <ell> union {0} contains k consecutive residues modulo d: each nondesignated ordinary entry has one common cycle-length residue modulo ell^v_ell(k)",
+    "for a congruence modulus q, floor(d/k)<=q implies a genus-zero contradiction"
+  ],
+  "forbidden_inferences": [
+    "no test of the designated partner's cycle-length congruence",
+    "no whole-degree or global genus-three exclusion",
+    "no isotriviality classification or invented literal negative word",
+    "no conversion of unresolved/capped work to a negative",
+    "no prime-degree rule applied to composite degrees",
+    "no equal nonzero unit digits asserted for prime k>=5 without an additional rule"
+  ],
+  "checks": {
+    "retained_positive_genus_three_components": 1793,
+    "retained_positive_genus_three_states": 76008,
+    "known_prime_degree_positives_in_panel": 0,
+    "independent_literal_negative_proposals": 86,
+    "maximum_literal_word_length": 2,
+    "parent_unresolved": 0,
+    "prime_cardinality_supports": 6237,
+    "actual_prime_cardinality_tiles": 760,
+    "literal_prime_cardinality_products": 6082,
+    "binary_four_term_masks": 7340,
+    "consecutive_root_polynomial_masks": 35622,
+    "prime_power_supports": 41563,
+    "actual_prime_power_tiles": 2071,
+    "literal_four_cycle_products": 1536,
+    "prime31_nonunit_countercontrol_nonconstant_labels_rejected_by_actual_tiles": 372
+  },
+  "bindings": [
+    {"path":"evidence/restriction_admission_20261024/MATHEMATICS.md","sha256":"b42694d70e509d04c4be99e42bf98fa92635f1d58f37ef602e198a7b9d908ee6"},
+    {"path":"evidence/restriction_admission_20261024/check_parent.py","sha256":"fe48435b5705c1178de100cc53bba559ced36aaad0ac57a5e91a09a1b86d4501"},
+    {"path":"evidence/restriction_admission_20261024/PARENT_CHECKS.json","sha256":"a0b1653ebd0a4202c2588ca50cd4f429dc46238d17d15a3abea9a3f47df1ef2e"},
+    {"path":"evidence/restriction_admission_20261024/geometry/ADVERSARIAL_REVIEW.md","sha256":"06e354ade1ee434e5bd7c57ffffb8294fdbf6417e535d47e2d2214fcc170c970"},
+    {"path":"evidence/restriction_admission_20261024/geometry/audit_cyclic_reductions.py","sha256":"cc007be689e3be37529610a23fb68239ebfee8ed8caf1026be110ef2df2d3a7c"},
+    {"path":"evidence/restriction_admission_20261024/geometry/CYCLIC_COUNTEREXAMPLE_CHECKS.json","sha256":"92a68502ffa4221b1bea01ea130f166facf318fa83ec01e8eb78ac80a4191754"},
+    {"path":"evidence/restriction_admission_20261024/geometry/PRIME_POWER_FOUR_CYCLE.md","sha256":"7148dd76bc45119360f840fd4531a3ed77d51bc3006665b52240a0a312d9050d"},
+    {"path":"evidence/restriction_admission_20261024/geometry/audit_prime_power_tiles.py","sha256":"caf30ba3aa07a21c4bafa2277a00c77b7da43d2e1e44cdb562f4e1dc3382c7ff"},
+    {"path":"evidence/restriction_admission_20261024/geometry/PRIME_POWER_COUNTEREXAMPLE_CHECKS.json","sha256":"ab61d9952a1015fb7659296f9edbe7867375e5090dbb03b2680f840e48b19e81"}
+  ]
+}

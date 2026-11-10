@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "claim": "C251_proposal_admission",
+  "passed": true,
+  "theorem": "retire-completed-or-objective-excluded-single-cycle-construction-frames",
+  "production_target": {
+    "source_genus": 3,
+    "nonisotrivial": true,
+    "all_smooth": true,
+    "orbit": "FULLsixmoves modulo simultaneousSdconjugacy",
+    "transitive": true,
+    "product_one": true
+  },
+  "scope": "proposal frame only: one actual singlek-cycle as first entry plus a complete genus-three index profile, before drawing the third/fourth entries",
+  "hypotheses": [
+    "2<=k<d",
+    "firstentry has exactly ONE nontrivial cycle oflengthk",
+    "all ordinarypair indexsums exceed d-1",
+    "a DISTINCT ordinaryindex equals d-k for saturated rules"
+  ],
+  "absolute_negative_rules": [
+    {
+      "degree": 14,
+      "single_cycle": 3,
+      "sorted_indices": [
+        2,
+        9,
+        10,
+        11
+      ],
+      "dependency": "C241"
+    },
+    {
+      "degree": 17,
+      "single_cycle": 3,
+      "ordinary_index": "d-k",
+      "dependency": "C243"
+    },
+    {
+      "degree": 19,
+      "single_cycle": 3,
+      "ordinary_index": "d-k",
+      "dependency": "C247"
+    },
+    {
+      "degree": 23,
+      "single_cycle": 4,
+      "ordinary_index": "d-k",
+      "dependency": "C244"
+    }
+  ],
+  "objective_only_rule": {
+    "single_cycle": "k>=5",
+    "ordinary_index": "d-k",
+    "star_required": true,
+    "dependency": "C239",
+    "conclusion": "no NON-ISOTRIVIAL all-smooth completion; not classification of this incomplete frame as an actual isotrivial component"
+  },
+  "reviewed_by_parent": true,
+  "human_or_formal_verification_recorded": false,
+  "accounting": "retired construction frames/foregone third-entry trials, separate from full tuples, proposal draws, transitive starts, literal negatives, isotrivial components and discoveries",
+  "default_activation": false,
+  "performance_validation_required": true,
+  "implementation_requirements": [
+    "recursive source-bound admission receipts; reject old binary silently ignoring feature",
+    "retain multicycle special permutations such as2^2 and3*2",
+    "never convert caps/unfinished candidates to negatives",
+    "keep complete old raw/checkpoints immutable; any activation uses safe frozen successor",
+    "known positive controls remain positive; objective-only frame exclusion is tested separately"
+  ],
+  "bindings": [
+    {
+      "path": "evidence/restriction_admission_20261024/C239_ADMISSION.json",
+      "sha256": "7ee8ec927f9c0302db4649cda26a9b0c00580e030c5959eef59120009043d4a8"
+    },
+    {
+      "path": "evidence/restriction_admission_20261024/C241_ADMISSION.json",
+      "sha256": "b971dbcecaf75ab0485728c0aa856c4bfa66c3504285907aafe81af2eb21ae90"
+    },
+    {
+      "path": "evidence/restriction_admission_20261024/C243_ADMISSION.json",
+      "sha256": "24c92142dff798077d9f56040bf52eada41e1fb0fa2246f492da3cf2c4abb784"
+    },
+    {
+      "path": "evidence/restriction_admission_20261024/C244_ADMISSION.json",
+      "sha256": "f522df669e281d5748b50d391b365aba856c3c59dfb323673027e6795cbd8761"
+    },
+    {
+      "path": "evidence/restriction_admission_20261024/C247_ADMISSION.json",
+      "sha256": "98c4ca2598e4748afed08fbcbaf14eb029f7dbbac2bee71c822437c5f5064d59"
+    }
+  ]
+}

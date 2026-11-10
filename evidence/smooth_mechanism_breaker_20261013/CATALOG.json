@@ -1,0 +1,1086 @@
+{
+  "components": [
+    {
+      "degree": 18,
+      "states": 1296,
+      "genus": 4,
+      "mechanism": "ramified-double-lift",
+      "primitive": false,
+      "imprimitive": true,
+      "blocks": 9,
+      "block_size": 2,
+      "block_partition": [
+        [
+          1,
+          16
+        ],
+        [
+          2,
+          18
+        ],
+        [
+          3,
+          14
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          8,
+          17
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "group_order": 41472,
+      "quotient_order": 324,
+      "kernel_order": 128,
+      "base_degree": 9,
+      "base_genus": 2,
+      "base_states": 12,
+      "kernel_code": {
+        "order": 128,
+        "rank": 7,
+        "equal_parities_on_three_coarse_blocks": true,
+        "coarse_blocks": [
+          [
+            1,
+            7,
+            8
+          ],
+          [
+            2,
+            3,
+            9
+          ],
+          [
+            4,
+            5,
+            6
+          ]
+        ]
+      },
+      "base_table_sha256": "a360803ed5df7eb31270e3eb347704f4e134e3e166295b07c26efdee7a90050a",
+      "quotient_projection_fiber": 108,
+      "all_rows_and_six_quotient_edges_checked": true,
+      "ramification_excess_histogram": {
+        "0,0,1,1": 216,
+        "0,1,0,1": 216,
+        "1,0,0,1": 216,
+        "0,1,1,0": 216,
+        "1,0,1,0": 216,
+        "1,1,0,0": 216
+      },
+      "raw_folder": "/Volumes/T7/Research/mechanism_frontier_validation_20261013_v2/mutation_18/component_000000899",
+      "table_sha256": "e63470960c160ba69d6eead7c2eafa49a3d5cd6e4407793a5b58aacf4de93346",
+      "representative": "[(1 5 4)(2 3 6), (1 7 13)(2 8 14)(3 9 15)(4 10 16)(5 11 17)(6 12 18), (1 11 14 6 8 17)(2 12 16)(3 9 18)(4 10 13)(5 7 15), (1 12 14 6 7 17)(2 9 18)(3 11 15)(4 8 16)(5 10 13)]",
+      "action": {
+        "states": 1296,
+        "ordered_passports": 12,
+        "passport_fiber_sizes": {
+          "108": 12
+        },
+        "pure_braid_orbits": 12,
+        "pure_braid_fiber_size": 108,
+        "pure_braid_fixes_every_state": false,
+        "graph_braid_relations_checked": true,
+        "table_sha256": "e63470960c160ba69d6eead7c2eafa49a3d5cd6e4407793a5b58aacf4de93346"
+      },
+      "geometric_classification": "not inferred; relative branch locations require separate analysis",
+      "summary_sha256": "d22ae2d15ef7ab73a9415d3bffcd0212e8ec40205549c7e6d6620feca66c95f7",
+      "component_identity_key": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          3,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          17,
+          15
+        ],
+        [
+          1,
+          3,
+          4,
+          0,
+          7,
+          9,
+          11,
+          2,
+          13,
+          14,
+          12,
+          15,
+          17,
+          16,
+          5,
+          6,
+          8,
+          10
+        ],
+        [
+          2,
+          3,
+          5,
+          6,
+          8,
+          10,
+          1,
+          12,
+          14,
+          13,
+          11,
+          16,
+          17,
+          15,
+          4,
+          9,
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "degree": 18,
+      "states": 1296,
+      "genus": 4,
+      "mechanism": "ramified-double-lift",
+      "primitive": false,
+      "imprimitive": true,
+      "blocks": 9,
+      "block_size": 2,
+      "block_partition": [
+        [
+          1,
+          18
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          13,
+          14
+        ]
+      ],
+      "group_order": 41472,
+      "quotient_order": 324,
+      "kernel_order": 128,
+      "base_degree": 9,
+      "base_genus": 2,
+      "base_states": 12,
+      "kernel_code": {
+        "order": 128,
+        "rank": 7,
+        "equal_parities_on_three_coarse_blocks": true,
+        "coarse_blocks": [
+          [
+            1,
+            7,
+            8
+          ],
+          [
+            2,
+            3,
+            9
+          ],
+          [
+            4,
+            5,
+            6
+          ]
+        ]
+      },
+      "base_table_sha256": "a360803ed5df7eb31270e3eb347704f4e134e3e166295b07c26efdee7a90050a",
+      "quotient_projection_fiber": 108,
+      "all_rows_and_six_quotient_edges_checked": true,
+      "ramification_excess_histogram": {
+        "0,0,1,1": 216,
+        "0,1,0,1": 216,
+        "1,0,0,1": 216,
+        "0,1,1,0": 216,
+        "1,0,1,0": 216,
+        "1,1,0,0": 216
+      },
+      "raw_folder": "/Volumes/T7/Research/mechanism_frontier_validation_20261013_v2/mutation_18/component_000001027",
+      "table_sha256": "d84668d10589c03384b155994b35705fcd946f0a402b12c9ce149d1e01192a0e",
+      "representative": "[(1 2 4)(3 5 6), (1 7 13)(2 8 14)(3 9 15)(4 10 16)(5 11 17)(6 12 18), (1 7 18)(2 9 16 6 10 15)(3 12 17)(4 8 13)(5 11 14), (1 9 17 5 10 13)(2 8 15)(3 7 18)(4 11 14)(6 12 16)]",
+      "action": {
+        "states": 1296,
+        "ordered_passports": 12,
+        "passport_fiber_sizes": {
+          "108": 12
+        },
+        "pure_braid_orbits": 12,
+        "pure_braid_fiber_size": 108,
+        "pure_braid_fixes_every_state": false,
+        "graph_braid_relations_checked": true,
+        "table_sha256": "d84668d10589c03384b155994b35705fcd946f0a402b12c9ce149d1e01192a0e"
+      },
+      "geometric_classification": "not inferred; relative branch locations require separate analysis",
+      "summary_sha256": "2755bdbc0b96b754907fbcf8dc23344f8fc39716b9753bbf41afa21ac5e05a18",
+      "component_identity_key": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          3,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          14,
+          17
+        ],
+        [
+          1,
+          3,
+          4,
+          0,
+          6,
+          8,
+          2,
+          10,
+          11,
+          13,
+          5,
+          14,
+          15,
+          16,
+          7,
+          17,
+          9,
+          12
+        ],
+        [
+          2,
+          4,
+          3,
+          0,
+          7,
+          9,
+          10,
+          1,
+          12,
+          11,
+          14,
+          5,
+          16,
+          15,
+          6,
+          17,
+          8,
+          13
+        ]
+      ]
+    },
+    {
+      "degree": 18,
+      "states": 1296,
+      "genus": 4,
+      "mechanism": "ramified-double-lift",
+      "primitive": false,
+      "imprimitive": true,
+      "blocks": 9,
+      "block_size": 2,
+      "block_partition": [
+        [
+          1,
+          18
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          17
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          13,
+          14
+        ]
+      ],
+      "group_order": 41472,
+      "quotient_order": 324,
+      "kernel_order": 128,
+      "base_degree": 9,
+      "base_genus": 2,
+      "base_states": 12,
+      "kernel_code": {
+        "order": 128,
+        "rank": 7,
+        "equal_parities_on_three_coarse_blocks": true,
+        "coarse_blocks": [
+          [
+            1,
+            7,
+            8
+          ],
+          [
+            2,
+            3,
+            9
+          ],
+          [
+            4,
+            5,
+            6
+          ]
+        ]
+      },
+      "base_table_sha256": "a360803ed5df7eb31270e3eb347704f4e134e3e166295b07c26efdee7a90050a",
+      "quotient_projection_fiber": 108,
+      "all_rows_and_six_quotient_edges_checked": true,
+      "ramification_excess_histogram": {
+        "0,0,1,1": 216,
+        "0,1,0,1": 216,
+        "1,0,0,1": 216,
+        "0,1,1,0": 216,
+        "1,0,1,0": 216,
+        "1,1,0,0": 216
+      },
+      "raw_folder": "/Volumes/T7/Research/mechanism_frontier_validation_20261013_v2/mutation_18/component_000001221",
+      "table_sha256": "b80e0237f6fe720f6f2ac2ff6a10c9263c36b912b31565edd8989d71f3cc67e9",
+      "representative": "[(1 5 4)(2 3 6), (1 7 13)(2 8 14)(3 9 15)(4 10 16)(5 11 17)(6 12 18), (1 8 17)(2 12 16)(3 9 13 4 10 18)(5 7 15)(6 11 14), (1 12 14)(2 10 13 5 9 18)(3 11 15)(4 8 16)(6 7 17)]",
+      "action": {
+        "states": 1296,
+        "ordered_passports": 12,
+        "passport_fiber_sizes": {
+          "108": 12
+        },
+        "pure_braid_orbits": 12,
+        "pure_braid_fiber_size": 108,
+        "pure_braid_fixes_every_state": false,
+        "graph_braid_relations_checked": true,
+        "table_sha256": "b80e0237f6fe720f6f2ac2ff6a10c9263c36b912b31565edd8989d71f3cc67e9"
+      },
+      "geometric_classification": "not inferred; relative branch locations require separate analysis",
+      "summary_sha256": "196538ccf938325b86d8bacd7d5c6993b9d61cbd88d308dc27d15867e8538882",
+      "component_identity_key": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          3,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          17,
+          15
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          8,
+          10,
+          11,
+          12,
+          2,
+          13,
+          14,
+          15,
+          16,
+          17,
+          5,
+          0,
+          7,
+          9
+        ],
+        [
+          2,
+          3,
+          5,
+          7,
+          9,
+          6,
+          12,
+          1,
+          11,
+          14,
+          13,
+          15,
+          17,
+          16,
+          4,
+          8,
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "degree": 18,
+      "states": 1296,
+      "genus": 4,
+      "mechanism": "ramified-double-lift",
+      "primitive": false,
+      "imprimitive": true,
+      "blocks": 9,
+      "block_size": 2,
+      "block_partition": [
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          13,
+          16
+        ],
+        [
+          14,
+          17
+        ]
+      ],
+      "group_order": 41472,
+      "quotient_order": 324,
+      "kernel_order": 128,
+      "base_degree": 9,
+      "base_genus": 2,
+      "base_states": 12,
+      "kernel_code": {
+        "order": 128,
+        "rank": 7,
+        "equal_parities_on_three_coarse_blocks": true,
+        "coarse_blocks": [
+          [
+            1,
+            8,
+            9
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            5,
+            6,
+            7
+          ]
+        ]
+      },
+      "base_table_sha256": "a360803ed5df7eb31270e3eb347704f4e134e3e166295b07c26efdee7a90050a",
+      "quotient_projection_fiber": 108,
+      "all_rows_and_six_quotient_edges_checked": true,
+      "ramification_excess_histogram": {
+        "0,0,1,1": 216,
+        "0,1,0,1": 216,
+        "1,0,0,1": 216,
+        "0,1,1,0": 216,
+        "1,0,1,0": 216,
+        "1,1,0,0": 216
+      },
+      "raw_folder": "/Volumes/T7/Research/mechanism_frontier_validation_20261013_v2/mutation_18/component_000001429",
+      "table_sha256": "88ff281b4985b3aeed828b8ad8582f3ee49bc72d7f0099182ea686041c1b1921",
+      "representative": "[(1 3 2)(4 5 6), (1 7 13)(2 8 14)(3 9 15)(4 10 16)(5 11 17)(6 12 18), (1 7 15)(2 9 13 5 10 18)(3 8 17)(4 11 14)(6 12 16), (1 11 13)(2 7 15)(3 9 17 4 10 14)(5 12 16)(6 8 18)]",
+      "action": {
+        "states": 1296,
+        "ordered_passports": 12,
+        "passport_fiber_sizes": {
+          "108": 12
+        },
+        "pure_braid_orbits": 12,
+        "pure_braid_fiber_size": 108,
+        "pure_braid_fixes_every_state": false,
+        "graph_braid_relations_checked": true,
+        "table_sha256": "88ff281b4985b3aeed828b8ad8582f3ee49bc72d7f0099182ea686041c1b1921"
+      },
+      "geometric_classification": "not inferred; relative branch locations require separate analysis",
+      "summary_sha256": "822c61a12cb5480b3ad8c8f702af460df580993245a563dda2213c9e0e6adab7",
+      "component_identity_key": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          3,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          17,
+          15
+        ],
+        [
+          1,
+          3,
+          4,
+          6,
+          8,
+          10,
+          11,
+          13,
+          2,
+          12,
+          14,
+          15,
+          16,
+          17,
+          5,
+          0,
+          9,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          7,
+          9,
+          0,
+          12,
+          1,
+          13,
+          14,
+          11,
+          15,
+          17,
+          16,
+          4,
+          10,
+          8,
+          6
+        ]
+      ]
+    }
+  ],
+  "source_checks": {
+    "sampled": true,
+    "construction": {
+      "degree": "18",
+      "lane": "mutate",
+      "seed": "2026101318",
+      "constructed": "10000",
+      "scope": "9999",
+      "transitive": "486",
+      "passport": "6951",
+      "short_reject": "6464",
+      "duplicate": "71",
+      "closed": "4",
+      "unresolved": "0",
+      "seconds": "3.3772125"
+    },
+    "components": [
+      {
+        "summary": {
+          "status": "closed_smooth",
+          "degree": "18",
+          "genus": "4",
+          "states": "1296",
+          "group_order": "41472",
+          "ambient": "S",
+          "full_group": "false",
+          "word": "",
+          "seed": "[(1 5 4)(2 3 6), (1 7 13)(2 8 14)(3 9 15)(4 10 16)(5 11 17)(6 12 18), (1 11 14 6 8 17)(2 12 16)(3 9 18)(4 10 13)(5 7 15), (1 12 14 6 7 17)(2 9 18)(3 11 15)(4 8 16)(5 10 13)]"
+        },
+        "independent_six_move_closure": true,
+        "table_sha256": "e63470960c160ba69d6eead7c2eafa49a3d5cd6e4407793a5b58aacf4de93346"
+      },
+      {
+        "summary": {
+          "status": "closed_smooth",
+          "degree": "18",
+          "genus": "4",
+          "states": "1296",
+          "group_order": "41472",
+          "ambient": "S",
+          "full_group": "false",
+          "word": "",
+          "seed": "[(1 2 4)(3 5 6), (1 7 13)(2 8 14)(3 9 15)(4 10 16)(5 11 17)(6 12 18), (1 7 18)(2 9 16 6 10 15)(3 12 17)(4 8 13)(5 11 14), (1 9 17 5 10 13)(2 8 15)(3 7 18)(4 11 14)(6 12 16)]"
+        },
+        "independent_six_move_closure": true,
+        "table_sha256": "d84668d10589c03384b155994b35705fcd946f0a402b12c9ce149d1e01192a0e"
+      },
+      {
+        "summary": {
+          "status": "closed_smooth",
+          "degree": "18",
+          "genus": "4",
+          "states": "1296",
+          "group_order": "41472",
+          "ambient": "S",
+          "full_group": "false",
+          "word": "",
+          "seed": "[(1 5 4)(2 3 6), (1 7 13)(2 8 14)(3 9 15)(4 10 16)(5 11 17)(6 12 18), (1 8 17)(2 12 16)(3 9 13 4 10 18)(5 7 15)(6 11 14), (1 12 14)(2 10 13 5 9 18)(3 11 15)(4 8 16)(6 7 17)]"
+        },
+        "independent_six_move_closure": true,
+        "table_sha256": "b80e0237f6fe720f6f2ac2ff6a10c9263c36b912b31565edd8989d71f3cc67e9"
+      },
+      {
+        "summary": {
+          "status": "closed_smooth",
+          "degree": "18",
+          "genus": "4",
+          "states": "1296",
+          "group_order": "41472",
+          "ambient": "S",
+          "full_group": "false",
+          "word": "",
+          "seed": "[(1 3 2)(4 5 6), (1 7 13)(2 8 14)(3 9 15)(4 10 16)(5 11 17)(6 12 18), (1 7 15)(2 9 13 5 10 18)(3 8 17)(4 11 14)(6 12 16), (1 11 13)(2 7 15)(3 9 17 4 10 14)(5 12 16)(6 8 18)]"
+        },
+        "independent_six_move_closure": true,
+        "table_sha256": "88ff281b4985b3aeed828b8ad8582f3ee49bc72d7f0099182ea686041c1b1921"
+      }
+    ],
+    "closed_identities": [
+      {
+        "degree": 18,
+        "key": [
+          [
+            0,
+            1,
+            2,
+            4,
+            5,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            16,
+            17,
+            15
+          ],
+          [
+            1,
+            3,
+            4,
+            0,
+            7,
+            9,
+            11,
+            2,
+            13,
+            14,
+            12,
+            15,
+            17,
+            16,
+            5,
+            6,
+            8,
+            10
+          ],
+          [
+            2,
+            3,
+            5,
+            6,
+            8,
+            10,
+            1,
+            12,
+            14,
+            13,
+            11,
+            16,
+            17,
+            15,
+            4,
+            9,
+            0,
+            7
+          ]
+        ],
+        "summary": {
+          "status": "closed_smooth",
+          "degree": "18",
+          "genus": "4",
+          "states": "1296",
+          "group_order": "41472",
+          "ambient": "S",
+          "full_group": "false",
+          "word": "",
+          "seed": "[(1 5 4)(2 3 6), (1 7 13)(2 8 14)(3 9 15)(4 10 16)(5 11 17)(6 12 18), (1 11 14 6 8 17)(2 12 16)(3 9 18)(4 10 13)(5 7 15), (1 12 14 6 7 17)(2 9 18)(3 11 15)(4 8 16)(5 10 13)]"
+        },
+        "folder": "component_000000899"
+      },
+      {
+        "degree": 18,
+        "key": [
+          [
+            0,
+            1,
+            2,
+            4,
+            5,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            14,
+            17
+          ],
+          [
+            1,
+            3,
+            4,
+            0,
+            6,
+            8,
+            2,
+            10,
+            11,
+            13,
+            5,
+            14,
+            15,
+            16,
+            7,
+            17,
+            9,
+            12
+          ],
+          [
+            2,
+            4,
+            3,
+            0,
+            7,
+            9,
+            10,
+            1,
+            12,
+            11,
+            14,
+            5,
+            16,
+            15,
+            6,
+            17,
+            8,
+            13
+          ]
+        ],
+        "summary": {
+          "status": "closed_smooth",
+          "degree": "18",
+          "genus": "4",
+          "states": "1296",
+          "group_order": "41472",
+          "ambient": "S",
+          "full_group": "false",
+          "word": "",
+          "seed": "[(1 2 4)(3 5 6), (1 7 13)(2 8 14)(3 9 15)(4 10 16)(5 11 17)(6 12 18), (1 7 18)(2 9 16 6 10 15)(3 12 17)(4 8 13)(5 11 14), (1 9 17 5 10 13)(2 8 15)(3 7 18)(4 11 14)(6 12 16)]"
+        },
+        "folder": "component_000001027"
+      },
+      {
+        "degree": 18,
+        "key": [
+          [
+            0,
+            1,
+            2,
+            4,
+            5,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            16,
+            17,
+            15
+          ],
+          [
+            1,
+            3,
+            4,
+            6,
+            8,
+            10,
+            11,
+            12,
+            2,
+            13,
+            14,
+            15,
+            16,
+            17,
+            5,
+            0,
+            7,
+            9
+          ],
+          [
+            2,
+            3,
+            5,
+            7,
+            9,
+            6,
+            12,
+            1,
+            11,
+            14,
+            13,
+            15,
+            17,
+            16,
+            4,
+            8,
+            10,
+            0
+          ]
+        ],
+        "summary": {
+          "status": "closed_smooth",
+          "degree": "18",
+          "genus": "4",
+          "states": "1296",
+          "group_order": "41472",
+          "ambient": "S",
+          "full_group": "false",
+          "word": "",
+          "seed": "[(1 5 4)(2 3 6), (1 7 13)(2 8 14)(3 9 15)(4 10 16)(5 11 17)(6 12 18), (1 8 17)(2 12 16)(3 9 13 4 10 18)(5 7 15)(6 11 14), (1 12 14)(2 10 13 5 9 18)(3 11 15)(4 8 16)(6 7 17)]"
+        },
+        "folder": "component_000001221"
+      },
+      {
+        "degree": 18,
+        "key": [
+          [
+            0,
+            1,
+            2,
+            4,
+            5,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            16,
+            17,
+            15
+          ],
+          [
+            1,
+            3,
+            4,
+            6,
+            8,
+            10,
+            11,
+            13,
+            2,
+            12,
+            14,
+            15,
+            16,
+            17,
+            5,
+            0,
+            9,
+            7
+          ],
+          [
+            2,
+            3,
+            5,
+            7,
+            9,
+            0,
+            12,
+            1,
+            13,
+            14,
+            11,
+            15,
+            17,
+            16,
+            4,
+            10,
+            8,
+            6
+          ]
+        ],
+        "summary": {
+          "status": "closed_smooth",
+          "degree": "18",
+          "genus": "4",
+          "states": "1296",
+          "group_order": "41472",
+          "ambient": "S",
+          "full_group": "false",
+          "word": "",
+          "seed": "[(1 3 2)(4 5 6), (1 7 13)(2 8 14)(3 9 15)(4 10 16)(5 11 17)(6 12 18), (1 7 15)(2 9 13 5 10 18)(3 8 17)(4 11 14)(6 12 16), (1 11 13)(2 7 15)(3 9 17 4 10 14)(5 12 16)(6 8 18)]"
+        },
+        "folder": "component_000001429"
+      }
+    ],
+    "known_aliases": 0,
+    "input_banks": {
+      "--known-bank": {
+        "path": "/Volumes/T7/Research/mechanism_inputs_20261013_v2/known_states.tsv",
+        "sha256": "c2266872316f28e2fe4651900e70619e35f91c45ab5c6a7486b3e460036f55d5"
+      }
+    },
+    "exported_negative_bank": null,
+    "independent_native": {
+      "records": 415,
+      "nonsmooth": 411,
+      "closed": 4,
+      "unresolved": 0,
+      "seconds": 0.002537333
+    },
+    "verifier_sha256": "bc56037c7a2ce2b46034318107aa3e30c0920369f343fcaee6b3643d425dc76b",
+    "sources": {
+      "COUNTS.tsv": "d6f1c4f58b02d571b24f482c3e39e84b0ab399da9ea744bb74bd2deca3769c54",
+      "LEADS.tsv": "e6e4e7da0a53195fee87048f5c4fccefd9eb30bc0ee9f9dd81d4485840d487f3",
+      "RESOLUTIONS.tsv": "b810f171b027e8994477a6fd0ba84065f9c0024c26a78a124e011d632dabe4c5"
+    },
+    "closed_record_binding": "30074d9edaa2e1a84ae55d547388720242fb4eef40e8719cd79490814f2476b6"
+  },
+  "distinct_from_prior_closed_identities": true,
+  "base_catalog_sha256": "262525ce5f1be212997742b1f20b37570725fdd684bd8cf006c0a11de51f259b",
+  "components_added": 4,
+  "states_added": 5184,
+  "source_job": "/Volumes/T7/Research/mechanism_frontier_validation_20261013_v2/mutation_18",
+  "verifier_sha256": "bc56037c7a2ce2b46034318107aa3e30c0920369f343fcaee6b3643d425dc76b",
+  "novelty": "New relative ramification pattern in this project, not a literature novelty or primitive/weak/geometric claim."
+}
