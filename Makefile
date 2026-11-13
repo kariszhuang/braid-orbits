@@ -1,5 +1,5 @@
 # Build everything and run every test that works without the original raw data.
-#   make build   main engine (target/smart/release) and the four Rust projects
+#   make build   main engine (target/smart/release) and the five Rust projects
 #   make test    Rust tests and self-tests, Python tests, website tests
 SHELL := /bin/bash
 .PHONY: build test test-rust test-python test-web
@@ -8,7 +8,7 @@ ROOT_CARGO := CARGO_TARGET_DIR=target/smart RUSTFLAGS="-C target-cpu=native" car
 # Degrees above 25 need the wide-key build (--cfg smooth_wide_keys); its one test runs there.
 WIDE_CARGO := CARGO_TARGET_DIR=target/wide RUSTFLAGS="-C target-cpu=native --cfg smooth_wide_keys" cargo
 WIDE_ONLY := new_degree_constructors_and_wide_keys
-RUST_PROJECTS := frames geosmooth onepiece quotient_exhaust
+RUST_PROJECTS := frames geosmooth isotrivial onepiece quotient_exhaust
 BIN := $(CURDIR)/target/smart/release
 SYMPY := uv run --isolated --no-project --python 3.13 --with sympy==1.14.0 python
 SCIENCE := uv run --isolated --no-project --python 3.13 --with numpy==2.3.5 --with pandas==2.3.3 \
@@ -35,6 +35,7 @@ test-rust: build
 	$(WIDE_CARGO) test --release --bin smooth_catalog_growth $(WIDE_ONLY)
 	$(BIN)/hurwitz_breaker selftest
 	projects/onepiece/target/release/onepiece --selftest
+	projects/isotrivial/target/release/isotrivial --selftest
 	python3 projects/geosmooth/test_g2.py
 
 test-python: build

@@ -16,6 +16,7 @@ All examples found so far are on the website, where you can search and filter th
 | download every example | [The database](#the-database) |
 | understand the words used here | [The mathematics in one page](#the-mathematics-in-one-page) |
 | run the code on my own tuple | [Setup](#setup), then [Try it on your own tuple](#try-it-on-your-own-tuple) |
+| check whether a family is isotrivial | [Is the family isotrivial?](#3-is-the-family-isotrivial) |
 | understand one particular search | [What is in each folder](#what-is-in-each-folder). Each folder has its own README. |
 
 ## Contents
@@ -60,7 +61,8 @@ These form a graph, which the website draws for every example. Its *defect* is i
 is still smooth (`projects/geosmooth/README.md`, Lemma G1). All-smooth implies one-piece.
 
 **Isotrivial.** All curves in the family are the same curve. The central question is whether a *non*-isotrivial
-all-smooth family exists in genus 3.
+all-smooth family exists in genus 3. `projects/isotrivial` decides this for any tuple; see
+[Is the family isotrivial?](#3-is-the-family-isotrivial).
 
 **Primitive.** No proper block system: there is no way to split `{1..d}` into equal blocks that the four
 permutations only permute among themselves. Imprimitive orbits come from a smaller cover, so primitive ones are
@@ -254,6 +256,70 @@ projects/onepiece/target/release/onepiece --census --d 5 --genus 2 --all-orbits
 Larger degrees take much longer; `projects/onepiece/README.md` has the timings. For a long run, save the results
 to a file with `--out FILE`. The program then also shows its progress.
 
+### 3. Is the family isotrivial?
+
+`isotrivial` decides whether the curves of a braid orbit are all the same curve. Build it once:
+
+```sh
+cd projects/isotrivial && cargo build --release && cd ../..
+```
+
+Then give it a tuple in the same format as above (four permutations with product 1, or just the first three):
+
+```sh
+projects/isotrivial/target/release/isotrivial "(1 2 4)(3 5 6);(1 7 13)(2 8 14)(3 9 15)(4 10 16)(5 11 17)(6 12 18);(1 7 18)(2 9 16 6 10 15)(3 12 17)(4 8 13)(5 11 14);(1 9 17 5 10 13)(2 8 15)(3 7 18)(4 11 14)(6 12 16)"
+```
+
+```
+degree 18, genus 4
+orbit: 1296 states
+one-piece at every state: yes (all-smooth: yes)
+average of rho over the orbit: p1 1/9, p2 1/9, p3 1/9 (agree)
+12L = 2/3   L = 1/18
+verdict: NOT ISOTRIVIAL (one-piece and L > 0)
+time: 0.027 s
+```
+
+This is the smallest all-smooth example that the database lists as "unknown" (degree 18, genus 4). The checker
+decides it: the family is not isotrivial.
+
+**What it does.**
+1. Checks the tuple and computes the genus `g`.
+2. Closes the braid orbit (states up to relabelling).
+3. Checks that every state is one-piece.
+4. Computes, exactly, `12L = d - S + 3 * (average over the orbit of rho(g1 g2))`, where
+   `rho(p) = sum over the cycles of p of 1/(cycle length)` and `S = rho(g1) + rho(g2) + rho(g3) + rho(g4)`.
+   `L` is the Hodge degree of the family per sheet.
+5. Decides:
+   - not one-piece: some limit curve is singular, so the family is **not isotrivial**;
+   - one-piece, genus at least 2: **isotrivial** exactly when `L = 0`;
+   - one-piece, genus 1: always **isotrivial**; genus 0: always **isotrivial**.
+
+The reason: for a family of smooth curves over a compact curve, the Hodge degree is never negative, and it is
+zero exactly when the family is isotrivial (Baily–Borel plus Torelli). The formula for `12L` comes from Mumford's
+relation `12 lambda = kappa + delta` applied to the admissible-cover family, as in van der Geer and Kouvidakis
+(<https://arxiv.org/html/1010.3335v3>). As a built-in check, the program also averages `rho(g2 g3)` and
+`rho(g1 g2 g3 g2^-1)`; all three averages must agree.
+
+**More examples.**
+
+| tuple | prints |
+|---|---|
+| `"(1 2 4)(3 5 7)(6 8 9);(1 3 6);(1 2 7)(3 8 4)(5 9 6);(1 8 4)(2 9 3)(5 7 6)"` | degree 9, genus 2, 12 states, `12L = 0`, isotrivial |
+| `"(1 2 3);(1 4 7 10 13)(2 5 8 11 14)(3 6 9 12 15);(1 5 9 12 15)(2 6 8 11 14)(3 4 7 10 13);(1 12 5 14 8)(2 10 4 15 9)(3 11 6 13 7)"` | degree 15, genus 5, 540 states, `12L = 16/15`, not isotrivial |
+| `"(1 2 3 4 5 6 7);(1 3)(2 6)(4 5);(1 5 2)(3 7 6)"` | degree 7, genus 3, 16800 states, not one-piece, not isotrivial |
+
+**Options.**
+- `--json`: one JSON line per tuple instead of the text report.
+- `--file FILE`: read one tuple per line (lines starting with `#` are skipped).
+- `--max-states N`: give up if the orbit has more than `N` states (default 20,000,000).
+- `--selftest`: run the three examples from the first table and report PASS or FAIL.
+
+**Speed.** Points are stored as bytes, so degrees up to 250 work. The largest orbit in the database (degree 25,
+447,120 states) takes about 15 seconds and 110 MB of memory on a recent Mac. On 240 database entries, the
+checker reproduced every state count, and it agreed with every one of the 120 entries that the database already
+labels isotrivial or not.
+
 ## What is in each folder
 
 ```
@@ -274,6 +340,7 @@ searched, and what was found. Start with these.
 | folder | question | language |
 |---|---|---|
 | `projects/onepiece/` | Which orbits are one-piece everywhere? Complete censuses for small degrees, lifts, and searches over primitive groups such as PSL(3,q). `allzero/` holds the primitive one-piece examples and their independent checks. | Rust, Python |
+| `projects/isotrivial/` | Is the family of a given tuple isotrivial? Closes the orbit, checks one-piece, and computes the Hodge degree exactly. | Rust |
 | `projects/geosmooth/` | How do geometric smoothness (one-piece) and combinatorial smoothness (all-smooth) differ? A graph criterion for one-piece. | Rust, Python |
 | `projects/frames/` | One branch point moving over a fixed elliptic curve: which collisions occur. | Rust |
 | `projects/quotient_exhaust/` | Every genus-3 tuple over a fixed genus-0 or genus-1 quotient, enumerated exhaustively. | Rust |
@@ -340,7 +407,7 @@ The details and exact scopes are in each project's README and on the website.
 ## Notes for programmers
 
 **Build details.**
-- `make build` builds the main crate into `target/smart/` with `-C target-cpu=native`, and the four Rust projects
+- `make build` builds the main crate into `target/smart/` with `-C target-cpu=native`, and the five Rust projects
   into their own `target/` folders.
 - There are no Rust dependencies.
 - Canonical state keys support degree at most 25 by default. Build with `RUSTFLAGS="--cfg smooth_wide_keys"` for
@@ -351,6 +418,7 @@ The details and exact scopes are in each project's README and on the website.
 ```sh
 ./target/smart/release/hurwitz_breaker selftest
 projects/onepiece/target/release/onepiece --selftest
+projects/isotrivial/target/release/isotrivial --selftest
 python3 scripts/weak/run_campaign.py --help
 node deploy/math/ui/test-catalog.mjs
 ```
